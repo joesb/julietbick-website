@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+  <head></head>
+  <body>
+    {{ content | safe }}
+  </body>
+</html>
