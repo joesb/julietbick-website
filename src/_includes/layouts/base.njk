@@ -30,11 +30,14 @@ siteLogoImg:
   {% include "layouts/components/head.njk" %}
 
   <body class="{% if class.body | length %}{{ class.body | join(' ') }}{% endif %}">
-
+    {# Header #}
     {% include "layouts/components/site-header.njk" %}
 
+    {# Main content #}
     {% include "layouts/components/site-main.njk" %}
 
+    {# Footer #}
+    {% include "layouts/components/site-footer.njk" %}
 
   </body>
 </html>

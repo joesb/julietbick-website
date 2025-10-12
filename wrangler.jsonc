@@ -1,5 +1,6 @@
 {
   "name": "website-julietbick",
+  "main": "functions/api/submit.js",
   "compatibility_date": "2025-10-12",
   "assets": {
     "directory": "_site",
