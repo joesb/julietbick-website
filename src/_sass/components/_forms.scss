@@ -1,0 +1,5 @@
+@use "../tools/mixins" as mx;
+
+#honey {
+  @include mx.do-not-display;
+}
