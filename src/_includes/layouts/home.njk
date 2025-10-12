@@ -1,0 +1,30 @@
+---
+layout: base.njk
+class:
+  page:
+    - home-content
+    - content-canvas
+siteLogoImg:
+  src: "https://placehold.co/219x219"
+  widths:
+    - 164
+    - 219
+---
+
+      <div class="eclipse"></div>
+
+      {% if showTitle != false and primary != true %}
+      {% include "layouts/components/title-bar.njk" %}
+      {% endif %}
+
+      {% if showContent != false %}
+        {% if jumbotron %}
+          {% include "layouts/components/jumbotron.njk" %}
+        {% endif %}
+        {{ content | safe }}
+      {% endif %}
+
+
+{% if pageLinks %}
+  {% include "layouts/components/page-pagelinks.njk" %}
+{% endif %}

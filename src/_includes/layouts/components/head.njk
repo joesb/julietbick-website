@@ -1,0 +1,35 @@
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
+    <title>{{ pageTitle or title or siteName | join(" ") }}</title>
+
+    <!-- structured data -->
+    {% jsonLdScript meta, type, tags %}
+
+    <!-- meta -->
+    <meta name="author" itemprop="author" content="{{ metadata.author.name }}">
+    <meta name="description" itemprop="description" content="{{ description }}">
+
+    {# OpenProps #}
+    <link rel="stylesheet preload" href="//unpkg.com/open-props@1.7.13/open-props.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet preload" href="//unpkg.com/open-props@1.7.13/normalize.light.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet preload" href="//unpkg.com/open-props@1.7.13/buttons.light.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
+
+    {# Styles #}
+    {% set css %}
+      {% include "assets/css/styles.css" %}
+    {% endset %}
+    <style>{{ css | cssmin | safe }}</style>
+
+    {% if styles %}
+      {% for style in styles %}
+        {% set include_style %}assets/css/{{ style }}{% endset %}
+        {% set include_css %}
+          {% include include_style %}
+        {% endset %}
+      <style>{{ include_css | cssmin | safe }}</style>
+      {% endfor %}
+    {% endif %}
+
+  </head>

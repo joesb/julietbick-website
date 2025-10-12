@@ -1,0 +1,19 @@
+
+    <main id="content" class="main">
+			{% if primary != true %}
+			
+      <article class="{% if class.page %}{{ class.page | join(" ") }}{% endif %}">
+
+			{# {% if eleventyNavigation and isHome !== true %}
+			{% include "layouts/components/page-breadcrumb.njk" %}
+			{% endif %} #}
+
+				{{ content | safe }}
+			</article>
+      
+      {% else %}
+
+				{{ content | safe }}
+
+			{% endif %}
+		</main>

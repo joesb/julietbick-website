@@ -1,6 +1,7 @@
 {
   "name": "julietbick-website",
   "description": "Juliet Bick website",
+  "version": "0.0.1",
   "type": "module",
   "author": {
     "name": "Joe Baker",
@@ -16,13 +17,13 @@
     "start": "yarn 11ty:serve",
     "build": "yarn 11ty:build",
     "11ty:build": "(yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
-    "11ty:watch": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && npx @11ty/eleventy --watch",
-    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy --serve & yarn sass:watch)",
+    "11ty:watch": "npx @11ty/eleventy --watch",
+    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (yarn 11ty:watch & yarn sass:watch & yarn wrangler:dev)",
     "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css",
     "sass:watch": "sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
     "util:clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/* || true",
-    "wrangler": "npx wrangler pages dev _site",
-    "wrangler:dev": "npx wrangler dev _site --live-reload"
+    "wrangler:dev": "npx wrangler dev --live-reload",
+    "wrangler:deploy": "npx wrangler deploy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
@@ -37,6 +38,7 @@
     "luxon": "^3.7.2",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",
+    "markdown-it-deflist": "^3.0.0",
     "markdown-it-eleventy-img": "^0.10.2",
     "minify-xml": "^4.5.2",
     "postcss": "^8.5.6",

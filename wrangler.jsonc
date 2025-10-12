@@ -1,0 +1,17 @@
+{
+  "name": "website-julietbick",
+  "compatibility_date": "2025-10-12",
+  "assets": {
+    "directory": "_site",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    {
+      "pattern": "julietbick.com",
+      "custom_domain": true
+    }
+  ],
+  "dev" : {
+    "port": 8080
+  }
+}

@@ -1,0 +1,39 @@
+@use "../common/variables";
+@use "../tools/px-to-rem" as ptr;
+@use "../tools/respond-to" as rt;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+
+body {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "head head head head head"
+    "main main main main main"
+    "foot foot foot foot foot"
+  ;
+  grid-template-columns: 2fr 1fr minmax(30ch, variables.$break-large) 1fr 2fr;
+  grid-template-rows: minmax(ptr.px-to-rem(90px), 10rem) auto auto;
+}
+
+header {
+  grid-area: head;
+}
+
+main {
+  grid-area: main;
+  min-height: 60vh;
+  flex-grow: 1;
+}
+
+footer {
+  grid-area: foot;
+}
+
+@include rt.respond-to('small') {
+  body {
+    grid-template-rows: minmax(ptr.px-to-rem(90px), auto) auto auto;
+  }
+}

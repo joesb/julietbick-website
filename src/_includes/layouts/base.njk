@@ -1,7 +1,40 @@
+---
+eleventyComputed:
+  meta:
+    site:
+      name: "{{ metadata.title }}"
+      description: "{{ metadata.summary }}"
+      url: "{{ metadata.url }}"
+      logo:
+        src: "{{ metadata.logo.src }}"
+        width: "{{ metadata.logo.width }}"
+        height: "{{ metadata.logo.height }}"
+    image:
+      src: "{% if image.social %}{{ metadata.url | trimTrailingSlash }}{% imageData image.social %}{% endif %}"
+    language: "{{ metadata.language }}"
+class:
+  body:
+    -
+siteLogoImg:
+  src: "https://placehold.co/164x164"
+  attrs:
+    loading: "eager"
+    fetchpriority: "high"
+  widths: 
+    - 110
+    - 164
+---
 <!DOCTYPE html>
-<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
-  <head></head>
-  <body>
-    {{ content | safe }}
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">  
+
+  {% include "layouts/components/head.njk" %}
+
+  <body class="{% if class.body | length %}{{ class.body | join(' ') }}{% endif %}">
+
+    {% include "layouts/components/site-header.njk" %}
+
+    {% include "layouts/components/site-main.njk" %}
+
+
   </body>
 </html>
