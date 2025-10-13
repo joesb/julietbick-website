@@ -2,6 +2,9 @@
   "name": "website-julietbick-submit",
   "main": "functions/api/submit.js",
   "compatibility_date": "2025-10-12",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
     "directory": "_site",
     "not_found_handling": "404-page"
