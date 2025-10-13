@@ -1,14 +1,21 @@
 ---
 layout: home.njk
 title: Home
+eleventyNavigation:
+  key: Home
+image: 
+  path: content/public/images/originals/pexels-cottonbro-4098150.jpg
+  alt: "Juliet Bick"
+  class:
+    - image-rounded
 class:
   body:
     - home
 ---
 
-Proident reprehenderit ullamco exercitation ut, non. Exercitation ut non dolore, irure non incididunt officia. Dolore irure non incididunt, officia veniam. Incididunt officia veniam, dolor. Dolor qui cupidatat ad sed est excepteur nulla. Cupidatat ad sed est excepteur.
+Proident reprehenderit ullamco exercitation ut, non. Exercitation ut non dolore, irure non incididunt officia. Dolore irure non incididunt, officia veniam.
 
-Reprehenderit ullamco, exercitation ut non dolore irure. Ut non dolore irure non incididunt officia veniam. Dolore irure non incididunt, officia veniam. Incididunt officia veniam, dolor. Dolor qui cupidatat ad sed est excepteur nulla.
+Reprehenderit ullamco, exercitation ut non dolore irure. Dolore irure non incididunt, officia veniam. Ut non dolore irure non incididunt officia veniam.
 
 Culpa voluptate quis enim, cupidatat qui.
 

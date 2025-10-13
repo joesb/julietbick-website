@@ -1,0 +1,7 @@
+@use "sass:color";
+
+/* General site colors */
+$color-white: rgba(255, 255, 255, 1);
+$color-white-transparent: rgba(255, 255, 255, 0.66);
+$color-white-darker: color.adjust($color-white, $lightness: -67%);
+$color-black: rgba(0, 0, 0, 1);

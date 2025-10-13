@@ -1,19 +1,22 @@
 
     <main id="content" class="main">
-			{% if primary != true %}
-			
+      {% if not primary and not list %}
+      
       <article class="{% if class.page %}{{ class.page | join(" ") }}{% endif %}">
+    
+        {% include "layouts/components/title-bar.njk" %}
 
-			{# {% if eleventyNavigation and isHome !== true %}
-			{% include "layouts/components/page-breadcrumb.njk" %}
-			{% endif %} #}
+      {# {% if eleventyNavigation and isHome !== true %}
+      {% include "layouts/components/page-breadcrumb.njk" %}
+      {% endif %} #}
 
-				{{ content | safe }}
-			</article>
+        {{ content | safe }}
+        
+      </article>
       
       {% else %}
 
-				{{ content | safe }}
+        {{ content | safe }}
 
-			{% endif %}
-		</main>
+      {% endif %}
+    </main>

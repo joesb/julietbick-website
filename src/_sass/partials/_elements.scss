@@ -1,3 +1,37 @@
+@use "../common/variables" as var;
+@use "../common/site-palette" as sp;
+
+html {
+
+  // Brand colours
+  --color-white: #{sp.$color-white};
+  --color-black: #{sp.$color-black};
+
+  // Fonts
+  --font-primary: #{var.$primary-font};
+  --font-secondary: #{var.$secondary-font};
+  --font-headings: #{var.$headings-font};
+  --font-headings-weight: #{var.$headings-font-weight};
+  --font-weight-light: #{var.$base-font-weight-light};
+  --font-weight-medium: #{var.$base-font-weight-medium};
+  --font-weight-regular: #{var.$base-font-weight-regular};
+  --font-weight-bold: #{var.$base-font-weight-bold};
+
+  --font-size-fluid-000: clamp(#{var.$body-v-sml-font-size-mobile}, 1.3vw, #{var.$body-v-sml-font-size});
+  --font-size-fluid-00: clamp(0.7rem, 1.75vw, 0.85rem);
+  --font-size-fluid-0: clamp(0.75rem, 2vw, 1rem);
+  --font-size-fluid-010: clamp(0.8rem, 3vw, 1.1rem);
+  --font-size-fluid-01: clamp(0.875rem, 3vw, 1.125rem);
+  --font-size-fluid-02: clamp(1rem, 3vw, 1.35rem);
+  --font-size-fluid-12: clamp(1.25rem, 5vw, 1.75rem);
+  --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
+  --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
+
+  --size-header-4: 45ch;
+  --size-header-5: 55ch;
+  --size-content-4: 75ch;
+}
+
 :where(p) {
   margin-block: var(--size-3);
 }

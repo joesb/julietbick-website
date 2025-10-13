@@ -9,20 +9,32 @@ siteLogoImg:
   widths:
     - 164
     - 219
+styles:
+  - home.css
 ---
-
-      <div class="eclipse"></div>
 
       {% if showTitle != false and primary != true %}
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
 
-      {% if showContent != false %}
-        {% if jumbotron %}
-          {% include "layouts/components/jumbotron.njk" %}
-        {% endif %}
-        {{ content | safe }}
-      {% endif %}
+    <div class="home-layout content-canvas-item-full">
+
+      <div class="home-layout__item home-layout__item--left">
+        <div class="home-layout__item__inner">
+          <div class="home-layout__item__inner__content">
+            {{ content | safe  }}
+          </div>
+        </div>
+      </div>
+
+      <div class="home-layout__item home-layout__item--right">
+        <div class="home-layout__item__inner">
+          <a href="/about/">
+          {% image image.path, image.alt, image.class, image.pictureClass.page, "(min-width: 30em) 50vw, 100vw", [300, 600] %}
+          </a>
+        </div>
+      </div>
+    </div>
 
 
 {% if pageLinks %}

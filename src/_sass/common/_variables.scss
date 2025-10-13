@@ -21,8 +21,8 @@ $desktop: $break-large;
 
 // Fonts
 $primary-font: "Playfair Display", var(--font-antique);
-$secondary-font: "Barlow Condensed", var(--font-neo-grotesque);
-$headings-font: "Barlow Condensed", Impact, var(--font-neo-grotesque);
+$secondary-font: "Roboto Condensed", var(--font-neo-grotesque);
+$headings-font: "Roboto Condensed", Impact, var(--font-neo-grotesque);
 
 // Font weight
 $base-font-weight-light: 300;
@@ -48,7 +48,7 @@ $h1-lg-font-size-mobile: px-to-rem.px-to-rem(48px);
 $h1-lg-font-size: px-to-rem.px-to-rem(64px);
 
 $h1-font-size-mobile: px-to-rem.px-to-rem(36px);
-$h1-font-size: px-to-rem.px-to-rem(48px);
+$h1-font-size: px-to-rem.px-to-rem(54px);
 
 $h2-font-size-mobile: 1.25rem;
 $h2-font-size: 1.75rem;

@@ -1,0 +1,33 @@
+/* --------------------------------------------------------------
+# Tools
+-------------------------------------------------------------- */
+@use "tools/respond-to";
+
+.home-layout__item__inner {
+  padding: clamp(1.5rem, 6vw, 12rem) clamp(2rem, 12vw, 12rem);
+}
+
+.home-layout__item__inner__content {
+  max-width: 40ch;
+  margin-inline: auto;
+}
+
+
+@include respond-to.respond-to('medium') {
+  .home-layout {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "left right"
+    ;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .home-layout__item--left {
+    grid-area: left;
+  }
+
+  .home-layout__item--right {
+    grid-area: right;
+  }
+}

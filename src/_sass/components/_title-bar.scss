@@ -1,0 +1,14 @@
+@use "../common/variables" as var;
+
+.page-title {
+  padding-block: var(--size-4);
+  margin-block-end: var(--size-4);
+}
+
+.page-title--heading {
+  font-size: var(--font-size-fluid-3);
+  margin-block-start: var(--size-5);
+  margin-block-end: var(--size-2);
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+}

@@ -1,3 +1,12 @@
+/* ==========================================================================
+COMPONENTS
+========================================================================== */
 
+@use "../components/site-header";
+@use "../components/site-header-nav";
+@use "../components/site-footer";
 @use "../components/content_canvas";
+@use "../components/faux-block-link";
+@use "../components/picture";
+@use "../components/title-bar";
 @use "../components/forms";

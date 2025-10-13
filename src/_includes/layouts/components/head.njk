@@ -10,6 +10,9 @@
     <!-- meta -->
     <meta name="author" itemprop="author" content="{{ metadata.author.name }}">
     <meta name="description" itemprop="description" content="{{ description }}">
+  
+    {# Google Fonts #}
+    {% include "layouts/components/head-google-fonts.njk" %}
 
     {# OpenProps #}
     <link rel="stylesheet preload" href="//unpkg.com/open-props@1.7.13/open-props.min.css" as="style" fetchPriority="low" onload="this.onload=null;this.rel='stylesheet'">
@@ -31,5 +34,11 @@
       <style>{{ include_css | cssmin | safe }}</style>
       {% endfor %}
     {% endif %}
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    {% set js %}
+      {% include "assets/js/inline.js" %}
+    {% endset %}
+    <script>{{ js | jsmin | safe }}</script>
 
   </head>
