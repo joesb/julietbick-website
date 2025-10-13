@@ -5,16 +5,6 @@
   "observability": {
     "enabled": true
   },
-  "assets": {
-    "directory": "_site",
-    "not_found_handling": "404-page"
-  },
-  "routes": [
-    {
-      "pattern": "julietbick.com",
-      "custom_domain": true
-    }
-  ],
   "dev" : {
     "port": 8080
   }
