@@ -31,6 +31,12 @@
   overflow: hidden;
 }
 
+.home-layout--panes--pane-text {
+  p {
+    font-size: var(--font-size-fluid-0);
+  }
+}
+
 
 @include respond-to.respond-to('medium') {
   .home-layout,
