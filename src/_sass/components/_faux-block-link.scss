@@ -1,8 +1,10 @@
 .faux-block-link-parent {
   position: relative;
+  overflow: hidden;
 
   .index-list__item__picture,
   .link--internal__image {
+
     img {
       transition: all 0.3s ease;
     }

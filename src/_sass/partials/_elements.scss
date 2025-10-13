@@ -4,8 +4,41 @@
 html {
 
   // Brand colours
+  --color-independence: #{sp.$color-independence};
+  --color-khaki: #{sp.$color-khaki};
+  --color-cadet-blue: #{sp.$color-cadet-blue};
+  --color-shadow: #{sp.$color-shadow};
+  --color-olive-drab: #{sp.$color-olive-drab};
+  --color-maastricht-blue: #{sp.$color-maastricht-blue};
+
   --color-white: #{sp.$color-white};
   --color-black: #{sp.$color-black};
+  --color-grey: #{sp.$color-grey};
+
+
+  --color-brand-primary: var(--color-independence);
+  --color-brand-secondary: var(--color-khaki);
+  --color-brand-tertiary: var(--color-cadet-blue);
+  --color-brand-quaternary: var(--color-shadow);
+  --color-brand-quinary: var(--color-olive-drab);
+  --color-brand-senary: var(--color-maastricht-blue);
+  --color-brand-white: var(--color-white);
+  --color-brand-black: var(--color-black);
+  --color-brand-grey: var(--color-grey);
+  --color-brand-text: var(--color-black);
+
+  --color-brand-primary-light: #{sp.$color-independence-lighter};
+  --color-brand-primary-dark: #{sp.$color-independence-darker};
+  --color-brand-secondary-light: #{sp.$color-khaki-lighter};
+  --color-brand-secondary-dark: #{sp.$color-khaki-darker};
+  --color-brand-tertiary-dark: #{sp.$color-cadet-blue-darker};
+  --color-brand-quaternary-dark: #{sp.$color-shadow-darker};
+  --color-brand-quinary-dark: #{sp.$color-olive-drab-darker};
+  --color-brand-senary-dark: #{sp.$color-maastricht-blue-darker};
+
+  // Text colours
+  --color-text-black: var(--color-brand-black);
+  --color-text-white: var(--color-brand-white);
 
   // Fonts
   --font-primary: #{var.$primary-font};
@@ -30,6 +63,10 @@ html {
   --size-header-4: 45ch;
   --size-header-5: 55ch;
   --size-content-4: 75ch;
+}
+
+:focus-visible {
+    outline-color: unset;
 }
 
 :where(p) {

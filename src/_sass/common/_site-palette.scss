@@ -1,7 +1,32 @@
 @use "sass:color";
 
+$color-01: #46516D;
+$color-02: #C2B89F;
+$color-03: #9FA8C2;
+$color-04: #82785F;
+$color-05: #423920;
+$color-06: #101933;
+
+$color-independence: $color-01;
+$color-khaki: $color-02;
+$color-cadet-blue: $color-03;
+$color-shadow: $color-04;
+$color-olive-drab: $color-05;
+$color-maastricht-blue: $color-06;
+
 /* General site colors */
 $color-white: rgba(255, 255, 255, 1);
 $color-white-transparent: rgba(255, 255, 255, 0.66);
 $color-white-darker: color.adjust($color-white, $lightness: -67%);
 $color-black: rgba(0, 0, 0, 1);
+$color-grey: color.adjust($color-black, $lightness: 10%);
+
+// Variants
+$color-independence-lighter: color.adjust($color-independence, $lightness: 10%);
+$color-independence-darker: color.adjust($color-independence, $lightness: -10%);
+$color-khaki-lighter: color.adjust($color-khaki, $lightness: 10%);
+$color-khaki-darker: color.adjust($color-khaki, $lightness: -10%);
+$color-cadet-blue-darker: color.adjust($color-cadet-blue, $lightness: -10%);
+$color-shadow-darker: color.adjust($color-shadow, $lightness: -10%);
+$color-olive-drab-darker: color.adjust($color-olive-drab, $lightness: -10%);
+$color-maastricht-blue-darker: color.adjust($color-maastricht-blue, $lightness: -10%);

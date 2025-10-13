@@ -9,11 +9,11 @@
     </ul> #}
 
     {% set navPages = collections.all | eleventyNavigation %}
-    <ul>
+    <ul class="main-nav--list">
     {%- for entry in navPages %}
-    {% if entry.url != "/" %}
-      <li>
-        <a {% activepath entry.url, page.url %} href="{{ entry.url }}" class="main-nav--list--item-link">{{ entry.title }}</a>
+    {% if not (entry.url == "/" or entry.hideMainNav) %}
+      <li class="main-nav--list--item">
+        <a href="{{ entry.url }}" class="main-nav--list--item-link {% activepath entry.url, page.url %}">{{ entry.title }}</a>
       </li>
     {% endif %}
     {%- endfor %}

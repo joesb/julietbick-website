@@ -39,14 +39,14 @@ h6,
   font-weight: var(--font-weight-bold);
   font-style: normal;
   font-stretch: normal;
-  letter-spacing: normal;
+  letter-spacing: -0.1rem;
   margin: 0;
   mix-blend-mode: normal;
   margin-block: 1.5rem 0.75rem;
   position: relative;
 
   // heading direct link hover
-  &:not(.hide-permalink, .title-bar--title) {
+  &:not(.hide-permalink, .header-main--title, .title-bar--title) {
     margin-inline-start: calc(px.px-to-rem(18px) * -1);
     padding-inline-start: px.px-to-rem(18px);
 

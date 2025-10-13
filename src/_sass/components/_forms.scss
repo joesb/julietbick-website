@@ -3,3 +3,61 @@
 #honey {
   @include mx.do-not-display;
 }
+
+.site-form {
+  display: grid;
+  grid-auto-flow: row;
+  gap: var(--size-2);
+  margin-block: var(--size-9);
+
+  hr {
+    margin-block: var(--size-1);
+
+    &::after {
+      line-height: var(--font-lineheight-00);
+    }
+  }
+
+  label {
+    text-align: right;
+  }
+}
+
+.form-group {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: var(--size-3);
+
+  input,
+  textarea {
+    grid-column: 2 / span 2;
+  }
+
+  textarea {
+    min-block-size: 5lh;
+  }
+}
+
+.form-group--submit {
+  button {
+    grid-column: 2;
+
+  }
+}
+
+:where([type=submit],form button:not([type],[disabled])) {
+  background: var(--color-brand-primary);
+  color: var(--color-text-white);
+  border: 0;
+  border-radius: var(--size-3);
+  transition: all 0.2s ease;
+  box-shadow: unset;
+  text-shadow: unset;
+
+  &:hover {
+    background: var(--color-brand-primary-dark);
+    border-radius: var(--size-1);
+    transition: all 0.2s ease;
+  }
+}

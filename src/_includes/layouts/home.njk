@@ -30,11 +30,29 @@ styles:
       <div class="home-layout__item home-layout__item--right">
         <div class="home-layout__item__inner">
           <a href="/about/">
-          {% image image.path, image.alt, image.class, image.pictureClass.page, "(min-width: 30em) 50vw, 100vw", [300, 600] %}
+          {% image image.path, image.alt, image.class, [200, 400], "(min-width: 30em) 50vw, 100vw" %}
           </a>
         </div>
       </div>
     </div>
+
+  <div class="home-layout--panes content-canvas-item-full">
+    {% set cls = cycler("odd", "even") %}
+    {% for pane in panes %}
+    <div class="home-layout--panes--pane home-layout--panes--pane-{{ loop.index0 }} home-layout--panes--pane-{{ cls.next() }}{% if pane.classes %} {{ pane.classes | join(" ")}}{% endif %}{% if pane.path %} faux-block-link-parent{% endif %}">
+      <div class="home-layout--panes--pane-inner home-layout--panes--pane-text">
+        {{ pane.text | markdown | safe}}
+      </div>
+
+      <div class="home-layout--panes--pane-inner home-layout--panes--pane-image">
+        {% image pane.image.path, pane.image.alt, pane.image.class, [300, 600], "(min-width: 30em) 50vw, 100vw", pane.image.picCls %}
+      </div>
+      {% if pane.path %}
+      <a href="{{ pane.path | url }}" class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ pane.title }}</span></a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
 
 
 {% if pageLinks %}

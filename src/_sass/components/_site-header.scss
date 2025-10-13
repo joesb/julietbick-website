@@ -39,7 +39,7 @@
       ".... logo ...."
       ".... nav ...."
     ;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns:  minmax(2vw, auto) 1fr minmax(2vw, auto);
   }
 
   .header-main__logo {

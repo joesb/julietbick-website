@@ -1,0 +1,101 @@
+@use "../tools/respond-to" as rt;
+
+// Coloured backgrounds
+
+.section-coloured-bg,
+.section-coloured-bg--primary {
+  --section-coloured-bg: var(--color-brand-primary);
+  --section-coloured-bg-text: var(--color-text-white);
+  background-color: var(--section-coloured-bg);
+  color: var(--section-coloured-bg-text);
+  transition: all 0.3s ease;
+
+  :where(blockquote,:not(blockquote)>cite) {
+    border-color: var(--section-coloured-bg-text);
+    border-inline-start-width: 0;
+    margin-inline-start: unset;
+    max-inline-size: var(--size-content-4);
+    font-style: initial;
+
+    em {
+      font-style: italic;
+    }
+  }
+
+  a {
+    &:not(.single-meta-button) {
+      color: var(--section-coloured-bg-text);
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-primary-dark);
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.section-coloured-bg--secondary {
+  --section-coloured-bg: var(--color-brand-secondary);
+  --section-coloured-bg-text: var(--color-text);
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-secondary-dark);
+    }
+  }
+}
+
+.section-coloured-bg--tertiary {
+  --section-coloured-bg: var(--color-brand-tertiary);
+  --section-coloured-bg-text: var(--color-text-white);
+
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-tertiary-dark);
+    }
+  }
+}
+
+.section-coloured-bg--quaternary {
+  --section-coloured-bg: var(--color-brand-quaternary);
+  --section-coloured-bg-text: var(--color-text);
+  
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-quaternary-dark);
+    }
+  }
+}
+
+.section-coloured-bg--quinary {
+  --section-coloured-bg: var(--color-brand-quinary);
+  --section-coloured-bg-text: var(--color-text-white);
+  
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-quinary-dark);
+    }
+  }
+}
+
+.section-coloured-bg--senary {
+  --section-coloured-bg: var(--color-brand-senary);
+  --section-coloured-bg-text: var(--color-text-white);
+  
+  &.faux-block-link-parent {
+    &:hover {
+      --section-coloured-bg: var(--color-brand-senary-dark);
+    }
+  }
+}
+
+.section-coloured-bg--white {
+  --section-coloured-bg: var(--color-brand-white);
+}

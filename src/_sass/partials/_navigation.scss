@@ -16,12 +16,11 @@
 .main-nav,
 .footer-main__nav,
 .footer__nav {
-  font-size: var(--font-size-fluid-0);
-
   ul {
     list-style: none;
     padding: 0;
     width: 100%;
+    font-size: var(--font-size-fluid-0);
 
     li {
       font-weight: variables.$base-font-weight-medium;
@@ -36,14 +35,13 @@
       margin-inline: px-to-rem.px-to-rem(5px);
 
       &:hover {
-        background-color: var(--surface-4);
         color: var(--text-1);
+        text-decoration: underline;
       }
 
       &.current {
         // background-color: var(--surface-4);
-        color: var(--text-alt-1);
-        font-weight: variables.$base-font-weight-bold;
+        font-weight: var(--font-weight-bold);
       }
     }
   }
@@ -151,6 +149,7 @@
     ul {
       display: flex;
       justify-content: center;
+      align-items: stretch;
 
       a {
         padding-block: px-to-rem.px-to-rem(5px);
@@ -158,16 +157,13 @@
     }
 
     li {
+      flex-basis: min-content;
       padding: 0;
+      display: flex;
+      align-items: center;
 
       &:not(:last-child) {
-        border-right: 1px solid var(--text-alt-1);
-      }
-
-      &.current {
-        a {
-          color: var(--text-highlight-1);
-        }
+        border-right: 1px solid var(--color-brand-senary);
       }
     }
   }
