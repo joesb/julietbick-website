@@ -1,5 +1,5 @@
 {
-  "name": "website-julietbick",
+  "name": "website-julietbick-submit",
   "main": "functions/api/submit.js",
   "compatibility_date": "2025-10-12",
   "assets": {
