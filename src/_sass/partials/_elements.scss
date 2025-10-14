@@ -14,7 +14,11 @@ html {
   --color-white: #{sp.$color-white};
   --color-black: #{sp.$color-black};
   --color-grey: #{sp.$color-grey};
-
+  --color-grey-dark: #{sp.$color-grey-darkish};
+  --color-grey-light: #{sp.$color-grey-lightish};
+  --color-grey-lighter: #{sp.$color-grey-lighter};
+  --color-cool-grey: #{sp.$color-white-dark};
+  --color-cooler-grey: #{sp.$color-white-darker};
 
   --color-brand-primary: var(--color-independence);
   --color-brand-secondary: var(--color-khaki);
@@ -39,6 +43,12 @@ html {
   // Text colours
   --color-text-black: var(--color-brand-black);
   --color-text-white: var(--color-brand-white);
+
+  // Border colours
+  --border-color: var(--color-grey-dark);
+  --border-top-color: var(--border-color);
+  --border-bottom-color: var(--border-color);
+  --border-color-pale: var(--color-cool-grey);
 
   // Fonts
   --font-primary: #{var.$primary-font};

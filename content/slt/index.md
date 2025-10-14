@@ -15,7 +15,7 @@ Elit aute lorem esse nisi cillum culpa duis. Lorem esse nisi cillum culpa duis. 
 
 Aute lorem esse nisi. Esse nisi cillum culpa, duis. Culpa duis irure esse ut ex anim fugiat. Irure esse ut ex anim, fugiat consequat. Ex anim fugiat consequat. Fugiat consequat, sed consectetur et. Consectetur, et non officia.
 
-{% ImgFigure 'Person raising hands upward. [Photo](https://www.pexels.com/photo/person-raising-hands-upward-1482797/){rel=noopener target=_blank} by [Monica Silvestre](https://www.pexels.com/@monica/){rel=noopener target=_blank}.', image.side_classes %}![Person raising hands upward](/public/images/originals/pexels-monica-1482797.jpg){.image-rounded eleventy:widths="200,350,575"}{% endImgFigure %}
+{% ImgFigure '[Photo](https://www.pexels.com/photo/hands-love-summer-girl-8298456/){rel=noopener target=_blank} by [RDNE Stock project](https://www.pexels.com/@rdne/){rel=noopener target=_blank}.', image.side_classes %}![Little girl in white dress](/public/images/originals/pexels-rdne-8298456.jpg){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
 
 Laborum, consectetur laborum magna mollit ipsum. Magna mollit ipsum aliqua est ut enim, ut. Aliqua est ut, enim ut lorem duis voluptate. Enim ut lorem duis voluptate duis proident id. Lorem duis voluptate duis proident, id. Duis proident id esse eu proident dolor. Id esse, eu proident dolor nostrud ea. Proident dolor nostrud ea. Nostrud ea esse dolor magna dolore fugiat dolore.{.content-canvas-item-main-left-main-end}
 
