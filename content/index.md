@@ -2,6 +2,9 @@
 layout: home.njk
 title: Home
 primary: true
+date: 2025-10-14T15:12:12
+sitemap:
+  priority: 1
 eleventyNavigation:
   key: Home
 image: 

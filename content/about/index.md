@@ -1,6 +1,7 @@
 ---
 title: "About Juliet"
 layout: page.njk
+date: 2025-10-14T14:12:12
 eleventyNavigation:
   key: About
   order: 100

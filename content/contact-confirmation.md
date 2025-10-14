@@ -2,7 +2,7 @@
 title: "Thank you!"
 layout: page.njk
 eleventyExcludeFromCollections: true
-date: 2024-12-09
+date: 2025-10-13T14:12:12
 noIndex: true
 showNav: false
 ---
