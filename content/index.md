@@ -25,11 +25,11 @@ panes:
       class: "home-panes--pane--img image-obj-cover image-obj-pos-higher"
       picCls: "link--internal__image"
     text: |
-      Pinterest bicycle rights prism, poke 90's bushwick succulents ramps hella heirloom gatekeep farm-to-table.  Hoodie PBR&B deep v, pok pok church-key cray art party jawn pabst.  Keffiyeh gochujang slow-carb freegan meditation synth.
+      **Pinterest bicycle rights prism, poke 90's bushwick succulents** ramps hella heirloom gatekeep farm-to-table.  Hoodie PBR&B deep v, pok pok church-key cray art party jawn pabst.  Keffiyeh gochujang slow-carb freegan meditation synth.
       
       Tumeric cronut mixtape paleo meggings live-edge kale chips forage truffaut coloring book tofu 8-bit cardigan pabst.  Fixie fingerstache sustainable slow-carb artisan JOMO ethical roof party.
 
-      [More about Speech & Language Therapy](/slt/){.single-meta-item .single-meta-forward}
+      [More about Speech & Language Therapy](/slt/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
 
@@ -42,11 +42,11 @@ panes:
       class: "home-panes--pane--img image-obj-cover"
       picCls: "link--internal__image"
     text: |
-      Ethical salvia jianbing subway tile thundercats franzen poutine listicle you probably haven't heard of them biodiesel squid waistcoat cornhole.  Tonx craft beer semiotics etsy same 3 wolf moon irony sriracha, air plant thundercats pickled polaroid bodega boys typewriter actually.
+      **Ethical salvia jianbing subway tile thundercats** franzen poutine listicle you probably haven't heard of them biodiesel squid waistcoat cornhole.  Tonx craft beer semiotics etsy same 3 wolf moon irony sriracha, air plant thundercats pickled polaroid bodega boys typewriter actually.
       
       Cardigan single-origin coffee kogi big mood banh mi prism mlkshk yr aesthetic distillery.  Pinterest portland glossier big mood 90's shoreditch cloud bread tumblr tumeric bodega boys.
 
-      [More about Coaching](/coaching/){.single-meta-item .single-meta-forward}
+      [More about Coaching](/coaching/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
       - section-coloured-bg--secondary
@@ -59,11 +59,11 @@ panes:
       class: "home-panes--pane--img image-obj-cover"
       picCls: "link--internal__image"
     text: |
-      Cold-pressed coloring book twee kitsch dreamcatcher.  Celiac knausgaard you probably haven't heard of them chartreuse typewriter glossier.  Big mood church-key sus locavore fanny pack succulents.  Chillwave bodega boys bicycle rights slow-carb tote bag hella poke YOLO palo santo pop-up fam.
+      **Cold-pressed coloring book twee kitsch dreamcatcher.**  Celiac knausgaard you probably haven't heard of them chartreuse typewriter glossier.  Big mood church-key sus locavore fanny pack succulents.  Chillwave bodega boys bicycle rights slow-carb tote bag hella poke YOLO palo santo pop-up fam.
       
       Vegan echo park authentic tacos meditation gluten-free banjo +1 distillery direct trade.  Chicharrones taiyaki lo-fi, ascot vexillologist butcher four dollar toast edison bulb man braid live-edge tonx la croix.
 
-      [More about Juliet](/about/){.single-meta-item .single-meta-forward}
+      [More about Juliet](/about/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
       - section-coloured-bg--tertiary
