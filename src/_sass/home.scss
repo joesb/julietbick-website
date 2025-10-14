@@ -5,7 +5,16 @@
 
 .home-layout,
 .home-layout--panes {
-  margin-block: var(--size-9);
+  margin-block: var(--size-5);
+}
+
+.home-layout {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "left right"
+  ;
+  grid-template-columns: 3fr 2fr;
 }
 
 .home-layout__item__inner,
@@ -14,21 +23,37 @@
 }
 
 .home-layout__item__inner__content {
-  max-width: 40ch;
+  max-inline-size: var(--size-content-3);
   margin-inline: auto;
 }
 
 .home-layout__item--left,
 .home-layout--panes--pane-text {
-  padding: var(--size-fluid-5);
+  padding: var(--size-fluid-2);
 }
 
 .home-layout__item--right {
-  padding: var(--size-fluid-5);
+  padding: var(--size-fluid-2);
 }
 
 .home-layout--panes--pane-image {
   overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-inline-size: 100%;
+  min-block-size: 30ch;
+}
+
+.home-panes--pane--img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
 }
 
 .home-layout--panes--pane-text {
@@ -40,18 +65,33 @@
 
 @include respond-to.respond-to('medium') {
   .home-layout,
+  .home-layout--panes {
+    margin-block: var(--size-9);
+  }
+
+  .home-layout,
   .home-layout--panes--pane {
     display: grid;
     grid-auto-flow: row;
     grid-template-areas:
-      "left right"
+      ". left right ."
     ;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 50ch 50ch auto;
   }
 
   .home-layout__item--left,
   .home-layout--panes--pane-text {
     grid-area: left;
+    justify-self: end;
+  }
+  
+  .home-layout--panes--pane-text {
+    padding: var(--size-fluid-5);
+  }
+
+  .home-layout__item--right {
+    padding-block: var(--size-fluid-2);
+    padding-inline: var(--size-fluid-5);
   }
 
   .home-layout__item--right,
@@ -60,10 +100,19 @@
     justify-self: start;
   }
 
+  .home-layout--panes--pane-image {
+    max-inline-size: var(--size-content-3);
+  }
+
   .home-layout--panes--pane-even {
     grid-template-areas:
-      "right left"
+      ". right left ."
     ;
+
+    .home-layout__item--left,
+    .home-layout--panes--pane-text {
+      justify-self: start;
+    }
 
     .home-layout--panes--pane-image {
       justify-self: end;

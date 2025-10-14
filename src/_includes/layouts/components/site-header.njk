@@ -1,11 +1,11 @@
     <header class="header-main content-canvas">
-      <div class="header-main__inner content-canvas-item-wide">
+      <div class="header-main__inner content-canvas-item-full">
         <div class="header-main__logo">
         {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
-          <h1 class="header-main--title">{{ metadata.title }}</h1>
+          <h1 class="header-main--title handwriting-font not-bold">{{ metadata.title }}</h1>
 					</a>
         {% else %}
-					<h1 class="header-main--title">{{ metadata.title }}</h1>
+					<h1 class="header-main--title handwriting-font not-bold">{{ metadata.title }}</h1>
         {% endif %}
         </div>
         <div class="header-main__nav">

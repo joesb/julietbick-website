@@ -2,7 +2,18 @@
 @use "../tools/respond-to";
 
 .footer-main {
-  background-color: var(--surface-3);
+  background-color: var(--color-brand-quinary);
+  color: var(--color-text-white);
+  padding-block: var(--size-9);
+
+  a {
+    color: inherit;
+  }
+}
+
+.footer-main__nav,
+.footer__nav {
+  --nav-text-color: var(--color-text-white);
 }
 
 .footer-main__container {

@@ -13,12 +13,22 @@ dl,
 .body-style {
   width: 100%;
   font-family: var(--font-primary);
+  font-optical-sizing: auto;
   font-size: var(--font-size-fluid-01);
   font-weight: var(--font-weight-regular);
   line-height: var(--font-lineheight-3);
   font-style: normal;
   color: inherit;
   margin-block: 0.75rem;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: var(--size-3);
+
+  &:not(:first-child) {
+    margin-block-start: var(--size-3);
+  }
 }
 
 /* Shared styles */
@@ -36,6 +46,7 @@ h6,
 .h6-style {
   color: inherit;
   font-family: var(--font-headings);
+  font-optical-sizing: auto;
   font-weight: var(--font-weight-bold);
   font-style: normal;
   font-stretch: normal;
@@ -207,6 +218,7 @@ h6,
 
 .headings-font {
   font-family: var(--font-headings);
+  font-optical-sizing: auto;
 }
 
 .handwriting-font {

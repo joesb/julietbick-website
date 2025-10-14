@@ -44,6 +44,7 @@ html {
   --font-primary: #{var.$primary-font};
   --font-secondary: #{var.$secondary-font};
   --font-headings: #{var.$headings-font};
+  --font-handwriting: #{var.$handwriting-font};
   --font-headings-weight: #{var.$headings-font-weight};
   --font-weight-light: #{var.$base-font-weight-light};
   --font-weight-medium: #{var.$base-font-weight-medium};
@@ -56,9 +57,10 @@ html {
   --font-size-fluid-010: clamp(0.8rem, 3vw, 1.1rem);
   --font-size-fluid-01: clamp(0.875rem, 3vw, 1.125rem);
   --font-size-fluid-02: clamp(1rem, 3vw, 1.35rem);
-  --font-size-fluid-12: clamp(1.25rem, 5vw, 1.75rem);
+  --font-size-fluid-12: clamp(1.25rem, 4vw, 1.75rem);
   --font-size-fluid-3: clamp(#{var.$h1-font-size-mobile}, 4vw, #{var.$h1-font-size});
-  --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 6vw, #{var.$h1-lg-font-size});
+  --font-size-fluid-4: clamp(#{var.$h1-lg-font-size-mobile}, 5vw, #{var.$h1-lg-font-size});
+  --font-size-fluid-5: clamp(2.75rem, 5vw, 4.5rem);
 
   --size-header-4: 45ch;
   --size-header-5: 55ch;
@@ -67,8 +69,4 @@ html {
 
 :focus-visible {
     outline-color: unset;
-}
-
-:where(p) {
-  margin-block: var(--size-3);
 }
