@@ -5,6 +5,13 @@ class:
     - content-canvas
     - page
     - type-page
+image:
+  figClasses:
+    - margin-block-end-lg
 ---
+
+  {% if image.path %}
+    {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
+  {% endif %}
 
 {{ content | safe }}
