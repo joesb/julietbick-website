@@ -65,7 +65,7 @@
 
 .section-coloured-bg--quaternary {
   --section-coloured-bg: var(--color-brand-quaternary);
-  --section-coloured-bg-text: var(--color-text);
+  --section-coloured-bg-text: var(--color-text-white);
   
   &.faux-block-link-parent {
     &:hover {

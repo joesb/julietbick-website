@@ -205,7 +205,7 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addPairedShortcode("ImgFigure", function(content, caption = false, classes = [], md = true) {
     if (caption) {
-      caption = '<figcaption>' + caption + '</figcaption>';
+      caption = '<figcaption>' + markdownLibrary.renderInline(caption) + '</figcaption>';
     }
     return '<figure' + (classes.length ? ' class="' + classes.join(" ") + '"' : '') + '>' + (md ? markdownLibrary.renderInline(content) : content) + (caption ? caption : '') +'</figure>';
   });
