@@ -33,6 +33,7 @@
 
 .header-main--title {
   font-size: var(--font-size-fluid-5);
+  margin-block-end: var(--size-1);
 }
 
 @include respond-to.respond-to('medium') {
