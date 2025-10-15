@@ -5,9 +5,14 @@ primary: true
 date: 2025-10-14T15:12:12
 sitemap:
   priority: 1
+hideTitleBar: true
+eleventyComputed:
+  meta:
+    title: "{{ metadata.title }}"
+    description: "{{ metadata.summary }}"
 eleventyNavigation:
   key: Home
-image: 
+image:
   path: content/public/images/originals/pexels-cottonbro-4098150.jpg
   alt: "Juliet Bick"
   class:

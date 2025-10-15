@@ -17,6 +17,10 @@
       {% else %}
       <div class="body {% if class.page %}{{ class.page | join(" ") }}{% endif %}">
 
+        {% if not hideTitleBar %}
+        {% include "layouts/components/title-bar.njk" %}
+        {% endif %}
+
         {{ content | safe }}
       </div>
       {% endif %}

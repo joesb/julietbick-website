@@ -1,5 +1,6 @@
 ---
-title: Articles
+title: My Articles
+description: Articles, blogs, essays, and other long-form pieces.
 layout: page.njk
 primary: true
 eleventyNavigation:

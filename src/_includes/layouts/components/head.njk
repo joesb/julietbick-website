@@ -2,7 +2,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
-    <title>{{ pageTitle or title or siteName | join(" ") }}</title>
+    <title>{{ pageTitle or title or siteName | join(" ") }} | {{ metadata.title }}</title>
 
     <!-- structured data -->
     {% jsonLdScript meta, type, tags %}
@@ -47,5 +47,7 @@
       {% include "assets/js/inline.js" %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
+
+    {% include "layouts/components/head-social-cards.njk" %}
 
   </head>
