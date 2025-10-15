@@ -17,7 +17,7 @@ styles:
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
 
-    <div class="home-layout content-canvas-item-full">
+    <section class="home-layout content-canvas-item-full">
 
       <div class="home-layout__item home-layout__item--left">
         <div class="home-layout__item__inner">
@@ -34,25 +34,25 @@ styles:
           </a>
         </div>
       </div>
-    </div>
+    </section>
 
-  <div class="home-layout--panes content-canvas-item-full">
-    {% set cls = cycler("odd", "even") %}
-    {% for pane in panes %}
-    <div class="home-layout--panes--pane home-layout--panes--pane-{{ loop.index0 }} home-layout--panes--pane-{{ cls.next() }}{% if pane.classes %} {{ pane.classes | join(" ")}}{% endif %}{% if pane.path %} faux-block-link-parent{% endif %}">
-      <div class="home-layout--panes--pane-inner home-layout--panes--pane-text">
-        {{ pane.text | markdown | safe}}
-      </div>
+    <div class="home-layout--panes content-canvas-item-full">
+      {% set cls = cycler("odd", "even") %}
+      {% for pane in panes %}
+      <section class="home-layout--panes--pane home-layout--panes--pane-{{ loop.index0 }} home-layout--panes--pane-{{ cls.next() }}{% if pane.classes %} {{ pane.classes | join(" ")}}{% endif %}{% if pane.path %} faux-block-link-parent{% endif %}">
+        <div class="home-layout--panes--pane-inner home-layout--panes--pane-text">
+          {{ pane.text | markdown | safe}}
+        </div>
 
-      <div class="home-layout--panes--pane-inner home-layout--panes--pane-image">
-        {% image pane.image.path, pane.image.alt, pane.image.class, [300, 600], "(min-width: 30em) 50vw, 100vw", pane.image.picCls %}
-      </div>
-      {% if pane.path %}
-      <a href="{{ pane.path | url }}" class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ pane.title }}</span></a>
-      {% endif %}
+        <div class="home-layout--panes--pane-inner home-layout--panes--pane-image">
+          {% image pane.image.path, pane.image.alt, pane.image.class, [300, 600], "(min-width: 30em) 50vw, 100vw", pane.image.picCls %}
+        </div>
+        {% if pane.path %}
+        <a href="{{ pane.path | url }}" class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ pane.title }}</span></a>
+        {% endif %}
+      </section>
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
 
 
 {% if pageLinks %}

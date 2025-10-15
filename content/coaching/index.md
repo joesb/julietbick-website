@@ -6,6 +6,7 @@ eleventyNavigation:
   key: Coaching
   order: 20
 image:
+  social: ./content/public/images/originals/pexels-mikhail-nilov-6932014.jpg
   path: /public/images/originals/pexels-mikhail-nilov-6932014.jpg
   alt: Woman in White Long Sleeve Shirt Holding Pink and White Floral Textile
   caption: |

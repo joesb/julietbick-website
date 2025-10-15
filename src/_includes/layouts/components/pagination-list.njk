@@ -1,0 +1,66 @@
+{% if listLen === undefined %}
+  {% set listLen = items.length %}
+{% endif %}
+  <ul class="index-list index-list--{{ listLen }}">
+    {% set cls = cycler("odd", "even") %}
+    {% set sze = cycler("large","small") %}
+    {% if listLen == 2 %}
+    {% set sze = cycler("large") %}
+    {% endif %}
+    {% for i in range (0, listLen) %}
+      {% set item = items[i] %}
+      {% set vr = cls.next() %}
+      {% if loop.index != 1 and vr == "even" %}
+      {% set trash = sze.next() %}
+      {% endif %}
+
+      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}">
+        <div class="index-list__item__content">
+          {% if item.data.tags and showTags !== false %}
+          {% set itemTags = [] %}
+          {% for tag in item.data.tags %}
+            {% if tag !== "blog" and tag | starts_with("#", true) %}
+            {% set itemTags = (itemTags.push(tag), itemTags) %}
+            {% endif %}
+          {% endfor %}
+          {# Have we got tags to show? #}
+          {% if itemTags.length %}
+          <div class="metadata__tags tags">
+          {% for tag in itemTags %}
+            <span class="metadata__tags__tag">{{ tag }}</span>
+            {% if loop.last !== true %}
+            <span class="metadata__divider divider"></span>
+            {% endif %}
+          {% endfor %}
+          </div>
+          {% endif %}
+          {% endif %}
+          <h3 class="h2-style">{% if listItemTitle and listItemTitle == 'nav' %}{{ item.data.eleventyNavigation.key }}{% elseif item.data.titleList %}{{ item.data.titleList }}{% else %}{{ item.data.title }}{% endif %}</h3>
+          {# Only show metadata if explicitly wanted #}
+          {% if metadata.cards.show %}
+          <div class="metadata item-meta">
+            <time class="item-date" datetime="{{ item.date | readableDate("yyyy-LL-dd") }}">{{ item.date | readableDate("d LLLL yyyy") }}</time>
+            <span class="divider"></span>
+            <span class="item-reading-time">{{ item.content | timeToRead }} read</span>
+          </div>
+          {% endif %}
+          {% if (listAllDescriptions or loop.first) and (item.data.description or item.data.page.excerpt) %}
+          <div class="description">
+            {% if item.data.description %}
+            {{ item.data.description | markdown | safe }}
+            {% else %}
+            {{ item.data.page.excerpt | markdown | safe }}
+            {% endif %}
+          </div>
+          {% endif %}
+         {# MORE BUTTON #}
+          {% if listAllMoreButton %}
+          <div class="link">
+            <span class="single-meta-item single-meta-forward text-color-brand-primary" title="Learn more about {{ item.data.title }}">{% if item.data.listItemMoreTitle %}{{ item.data.listItemMoreTitle }}{% else %}Read article{% endif %}</span>
+          </div>
+          {% endif %}
+        </div>
+        <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"></a>
+      </li>
+    {% endfor %}
+    </ul>

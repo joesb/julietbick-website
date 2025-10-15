@@ -15,8 +15,9 @@
       </article>
       
       {% else %}
+      <div class="body {% if class.page %}{{ class.page | join(" ") }}{% endif %}">
 
         {{ content | safe }}
-
+      </div>
       {% endif %}
     </main>

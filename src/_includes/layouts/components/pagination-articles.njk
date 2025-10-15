@@ -1,0 +1,12 @@
+
+    <aside class="site-content content-canvas-item-full content-canvas" {% if paginationContentID %} id="{{ paginationContentID }}"{% endif %}>
+      {% if listTitle %}
+      <hr>
+
+      <h2 class="content-canvas-item-wide">{{ listTitle }}</h2>
+
+      {% endif %}
+      <div class="content-canvas-item-wide">
+      {% include "layouts/components/pagination-list.njk" %}
+      </div>
+    </aside>

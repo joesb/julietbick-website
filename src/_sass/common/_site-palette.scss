@@ -18,8 +18,8 @@ $color-maastricht-blue: $color-06;
 $color-white: rgba(255, 255, 255, 1);
 $color-white-transparent: rgba(255, 255, 255, 0.66);
 $color-white-dark: color.adjust($color-white, $lightness: -15%);
-$color-white-darker: color.adjust($color-white, $lightness: -33%);
-$color-white-darkest: color.adjust($color-white, $lightness: -67%);
+$color-white-darker: color.adjust($color-white, $lightness: -25%);
+$color-white-darkest: color.adjust($color-white, $lightness: -33%);
 $color-black: rgba(0, 0, 0, 1);
 $color-grey: color.adjust($color-black, $lightness: 10%);
 

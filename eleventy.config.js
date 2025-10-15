@@ -9,6 +9,7 @@ import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
+import timeToRead  from "eleventy-plugin-time-to-read";
 import CleanCSS from "clean-css";
 import postCSS from "postcss";
 import autoprefixer from "autoprefixer";
@@ -43,6 +44,16 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageOnRequestDuringServePlugin);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(schema);
+  eleventyConfig.addPlugin(timeToRead, {
+    speed: '850 characters per minute',
+    style: "short"
+  });
+
+  eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		// Optional, default is "---"
+		excerpt_separator: "<!-- excerpt -->",
+	});
 
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// which file extensions to process
@@ -251,62 +262,11 @@ export default async function(eleventyConfig) {
 
     /* COLLECTIONS */
 
-  // Promoted Content collection
-  eleventyConfig.addCollection('handbookPromoted', (collection) => {
-    var nav = collection.getFilteredByTag('#handbookPromoted');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Promoted Handbook Content for Homepage collection
-  eleventyConfig.addCollection('handbookPromotedHP', (collection) => {
-    var nav = collection.getFilteredByTag('#handbookPromotedHP');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Promoted Services collection
-  eleventyConfig.addCollection('servicePromoted', (collection) => {
-    var nav = collection.getFilteredByTag('#servicePromoted');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Content for feed.xml
-  eleventyConfig.addCollection('feed', (collection) => {
-    // var nav = collection.getFilteredByTag('#handbookPromoted');
-    // var nav1 = collection.getFilteredByTag('#servicePromoted');
-    // nav = nav.concat(nav1);
-    var nav = collection.getFilteredByGlob('./content/**/*.md');
-    return nav.length ? sortByDate(nav) : [];
-  });
-
-  // Handbook: Why collection
-  eleventyConfig.addCollection('handbookWhy', (collection) => {
-    var nav = collection.getFilteredByTag('#handbookWhy');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Handbook: What collection
-  eleventyConfig.addCollection('handbookWhat', (collection) => {
-    var nav = collection.getFilteredByTag('#handbookWhat');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Handbook: Delivery collection
-  eleventyConfig.addCollection('handbookDelivery', (collection) => {
-    var nav = collection.getFilteredByTag('#handbookDelivery');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Handbook: Strategy collection
-  eleventyConfig.addCollection('handbookStrategy', (collection) => {
-    var nav = collection.getFilteredByTag('#handbookStrategy');
-    return nav.length ? sortByOrder(nav, 'eleventyNavigation') : [];
-  });
-
-  // Podcast episode collection
-  eleventyConfig.addCollection('podcastEpisodes', (collection) => {
-    var episodes = collection.getFilteredByGlob('./content/podcast/ep*.md');
-    return episodes.length ? sortByDate(episodes) : [];
-  });
+  // // Podcast episode collection
+  // eleventyConfig.addCollection('blog', (collection) => {
+  //   var episodes = collection.getFilteredByGlob('./content/blog/*.md');
+  //   return episodes.length ? sortByDate(episodes) : [];
+  // });
 
   eleventyConfig.addFilter('sortByDate', (collection, andSticky = true) => {
     return sortByDate(collection, andSticky);

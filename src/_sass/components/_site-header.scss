@@ -5,8 +5,9 @@
   top: 0;
   z-index: 50;
   background-color: var(--color-brand-tertiary);
-  color: var(--text-1);
+  color: var(--color-text-black);
   box-shadow: var(--shadow-2);
+  border-bottom: var(--size-2) solid var(--color-brand-primary);
 }
 
 .header-main__inner {
