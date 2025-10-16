@@ -63,7 +63,7 @@
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"></a>
         {% if item.data.image.path and item.data.image.listShowImg %}
         {% Markdown true %}
-          ![{{ item.data.image.alt }}]({{ item.data.image.path }}){.image-obj-cover .image-darken-33 eleventy:pictureattr:class="index-list__item__picture"}
+          ![{{ item.data.image.alt }}]({{ item.data.image.path }}){.image-obj-cover .image-darken-50{% if item.data.image.listClasses %}{% for i in item.data.image.listClasses %} .{{ i }}{% endfor %}{% endif %} eleventy:widths="{{ image.widths }}" eleventy:pictureattr:class="index-list__item__picture"}
         {% endMarkdown %}
         {% endif %}
       </li>

@@ -12,6 +12,11 @@ listAllDescriptions: true
 metadata:
   cards:
     show: true
+image:
+  widths:
+    - 300
+    - 500
+    - 1000
 pagination:
   data: collections.blog
   size: 6
