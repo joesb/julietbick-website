@@ -136,7 +136,7 @@
 
 @include respond-to.respond-to('small') {
   .index-list {
-    gap: var(--size-5);
+    gap: var(--size-4);
   }
 
   // .index-list__item {
@@ -189,17 +189,34 @@
   }
 }
 
-@include respond-to.respond-to('medium') {
-  .index-list {
-    gap: var(--size-7);
+
+
+.index-list__item-has-img {
+  .index-list__item__content {
+    align-items: end;
+    grid-template-rows: minmax(5rem, 2fr) auto auto auto;
+    color: var(--color-text-white);
+  }
+
+  h3,
+  .link,
+  .metadata,
+  .text-color-brand-primary {
+    color: var(--color-text-white);
   }
 }
 
-@include respond-to.respond-to('large') {
-  .index-list {
-    gap: var(--size-8);
-  }
-}
+// @include respond-to.respond-to('medium') {
+//   .index-list {
+//     gap: var(--size-7);
+//   }
+// }
+
+// @include respond-to.respond-to('large') {
+//   .index-list {
+//     gap: var(--size-8);
+//   }
+// }
 
 .index-list__item {
   &:hover {
@@ -251,14 +268,26 @@
   grid-template-columns: 1fr;
 
   @include respond-to.respond-to('small') {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 
-  .index-list__item-first,
+  // .index-list__item-first,
   .index-list__item,
   .index-list__item-small,
   .index-list__item-large {
-    grid-column: span 1;
+    &:not(.index-list__item-first) {
+      grid-column: span 3;
+    }
+  }
+
+  .index-list__item-1 {
+    grid-column: span 4;
+  }
+
+  .index-list__item-2 {
+    &.index-list__item-small {
+      grid-column: span 2;
+    }
   }
 }
 

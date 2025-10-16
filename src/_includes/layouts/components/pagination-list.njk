@@ -14,7 +14,7 @@
       {% set trash = sze.next() %}
       {% endif %}
 
-      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %}">
+      <li class="faux-block-link-parent index-list__item index-list__item-{{ loop.index }}{% if loop.first %} index-list__item-first{% endif %} index-list__item-{{ vr }}{% if loop.index != 1 %} index-list__item-{{ sze.next() }}{% endif %} {% if item.data.image.path and item.data.image.listShowImg %} index-list__item-has-img{% endif %}">
         <div class="index-list__item__content">
           {% if item.data.tags and showTags !== false %}
           {% set itemTags = [] %}
@@ -44,7 +44,7 @@
             <span class="item-reading-time">{{ item.content | timeToRead }} read</span>
           </div>
           {% endif %}
-          {% if (listAllDescriptions or loop.first) and (item.data.description or item.data.page.excerpt) %}
+          {% if (listAllDescriptions or loop.first) and (item.data.description or item.data.page.excerpt) and not (item.data.image.path and item.data.image.listShowImg) %}
           <div class="description">
             {% if item.data.description %}
             {{ item.data.description | markdown | safe }}
@@ -61,6 +61,11 @@
           {% endif %}
         </div>
         <a href="{{ item.url | url }}"{% activepath item.url, page.url %} class="faux-block-link" aria-label="{{ item.data.title }}"></a>
+        {% if item.data.image.path and item.data.image.listShowImg %}
+        {% Markdown true %}
+          ![{{ item.data.image.alt }}]({{ item.data.image.path }}){.image-obj-cover .image-darken-33 eleventy:pictureattr:class="index-list__item__picture"}
+        {% endMarkdown %}
+        {% endif %}
       </li>
     {% endfor %}
     </ul>
