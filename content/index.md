@@ -74,10 +74,11 @@ panes:
       - section-coloured-bg--tertiary
 ---
 
-**Palo santo bruh 90's jawn offal lumbersexual sus grailed.  Cloud bread tonx deep v flannel solarpunk.**{.larger}
+**I'm Juliet.**{.vlarge .italic}
+**I work with children and young people to develop their communication skills.**{.larger}
 
-Grailed pork belly food truck cray pok pok actually sriracha mlkshk meditation jean shorts kitsch twee bushwick raclette.
+I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.
 
-Seitan marfa listicle kitsch, semiotics cupping readymade kombucha cold-pressed enamel pin authentic affogato paleo.
+This includes working with their families, carers and school staff to support their communication with the autistic child or young person.
 
-Ramps la croix air plant messenger bag photo booth JOMO.
+I believe in a strengths-based approach to our work together and focus on communication that stems from trust and connection.

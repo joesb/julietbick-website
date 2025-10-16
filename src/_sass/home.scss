@@ -77,7 +77,12 @@
     grid-template-areas:
       ". left right ."
     ;
-    grid-template-columns: auto 50ch 50ch auto;
+    grid-template-columns: auto minmax(25ch, 50ch) minmax(25ch, 50ch) auto;
+  }
+
+  .home-layout__item {
+    display: flex;
+    align-items: start;
   }
 
   .home-layout__item--left,
