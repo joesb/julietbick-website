@@ -77,7 +77,7 @@ panes:
 **I'm Juliet.**{.vlarge .italic}
 **I work with children and young people to develop their communication skills.**{.larger}
 
-I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.
+I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.{.medium}
 
 This includes working with their families, carers and school staff to support their communication with the autistic child or young person.
 

@@ -1,12 +1,28 @@
 ---
-title: "About Juliet"
+title: "I'm Juliet"
 layout: page.njk
 date: 2025-10-14T14:12:12
 eleventyNavigation:
   key: About
   order: 100
+image:
+  side_classes:
+    - content-canvas-item-wide-right-sm
+    - content-canvas-item-right--span-5
+    - margin-block-md
 ---
 
-Elit aute lorem esse nisi cillum culpa duis. Lorem esse nisi cillum culpa duis. Nisi cillum culpa duis irure, esse ut. Duis irure esse, ut ex anim. Ut ex anim fugiat consequat sed, consectetur et. Fugiat consequat, sed consectetur et.
+**I work with children and young people to develop their communication skills.**{.larger}
+{.content-canvas-item-main-start-main-right}
 
-Aute lorem esse nisi. Esse nisi cillum culpa, duis. Culpa duis irure esse ut ex anim fugiat. Irure esse ut ex anim, fugiat consequat. Ex anim fugiat consequat. Fugiat consequat, sed consectetur et. Consectetur, et non officia.
+{% ImgFigure "I'm Juliet", image.side_classes %}![Juliet Bick](/public/images/originals/pexels-cottonbro-4098150.jpg){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
+
+I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.{.medium .content-canvas-item-main-start-main-right}
+
+This includes working with their families, carers and school staff to support their communication with the autistic child or young person.{.content-canvas-item-main-start-main-right}
+
+I believe in a strengths-based approach to our work together and focus on communication that stems from trust and connection.{.content-canvas-item-main-start-main-right}
+
+I have lived and worked in Birmingham for over 20 years. Communicating with others brings me joy, and I have been lucky to have had a career with communication at the centre.{.content-canvas-item-main-start-main-right}
+
+Being myself with others, so that they can be who they are, is my passion.

@@ -16,7 +16,6 @@ Glossier craft beer master cleanse, authentic williamsburg meditation trust fund
 
 Swag cardigan williamsburg, kale chips jean shorts activated charcoal bruh butcher.  Poke cornhole hot chicken shoreditch neutral milk hotel hell of chillwave glossier keytar hoodie roof party williamsburg paleo praxis.  Distillery kogi messenger bag pop-up.  Pok pok lumbersexual literally, shabby chic butcher snackwave seitan JOMO taxidermy.  Mixtape vegan farm-to-table, la croix hammock skateboard seitan mumblecore pok pok drinking vinegar church-key lumbersexual trust fund plaid.
 
-
 {% ImgFigure '[Photo](https://www.pexels.com/photo/hands-love-summer-girl-8298456/){rel=noopener target=_blank} by [RDNE Stock project](https://www.pexels.com/@rdne/){rel=noopener target=_blank}.', image.side_classes %}![Little girl in white dress](/public/images/originals/pexels-rdne-8298456.jpg){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
 
 Cold-pressed neutra air plant, squid neutral milk hotel pug chambray wayfarers grailed enamel pin JOMO try-hard.  Sus vibecession glossier green juice mixtape tousled hoodie normcore prism cornhole.  Tattooed humblebrag snackwave, copper mug pickled chartreuse photo booth lyft Brooklyn.{.content-canvas-item-main-left-main-end}
