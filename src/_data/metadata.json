@@ -12,5 +12,25 @@
   "author": {
     "name": "Juliet Bick",
     "url": "https://julietbick.com/about/"
-  }
+  },
+  "memberships": [
+    {
+      "name": "Association of Speech and Language Therapists in Independent Practice",
+      "short_name": "ASLTIP",
+      "machine_name": "asltip",
+      "url": "https://asltip.com/"
+    },
+    {
+      "name": "Health & Care Professions Council",
+      "short_name": "HCPC",
+      "machine_name": "hcpc",
+      "url": "https://www.hcpc-uk.org/"
+    },
+    {
+      "name": "Royal College of Speech & Language Therapists",
+      "short_name": "RCSLT",
+      "machine_name": "rcslt",
+      "url": "https://www.rcslt.org/"
+    }
+  ]
 }

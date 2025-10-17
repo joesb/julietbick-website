@@ -36,6 +36,10 @@ styles:
       </div>
     </section>
 
+    <div class="content-canvas-item-wide">
+    {% include "layouts/components/memberships-list.njk" %}
+    </div>
+
     <div class="home-layout--panes content-canvas-item-full">
       {% set cls = cycler("odd", "even") %}
       {% for pane in panes %}
