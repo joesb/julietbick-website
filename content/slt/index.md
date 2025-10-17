@@ -4,7 +4,7 @@ layout: page.njk
 date: 2025-10-14T14:12:12
 eleventyNavigation:
   key: Speech & Language Therapy
-  order: 10
+  order: 20
 image:
   side_classes:
     - content-canvas-item-wide-left-sm

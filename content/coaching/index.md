@@ -4,7 +4,7 @@ layout: page.njk
 date: 2025-10-14T14:12:12
 eleventyNavigation:
   key: Coaching
-  order: 20
+  order: 10
 image:
   social: ./content/public/images/originals/pexels-mikhail-nilov-6932014.jpg
   path: /public/images/originals/pexels-mikhail-nilov-6932014.jpg
