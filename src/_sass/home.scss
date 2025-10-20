@@ -5,7 +5,7 @@
 
 .home-layout,
 .home-layout--panes {
-  margin-block: var(--size-5);
+  margin-block: var(--size-4);
 }
 
 .home-layout {
@@ -67,7 +67,7 @@
 @include respond-to.respond-to('medium') {
   .home-layout,
   .home-layout--panes {
-    margin-block: var(--size-9);
+    margin-block: var(--size-7);
   }
 
   .home-layout,

@@ -22,7 +22,9 @@
     list-style: none;
     padding: 0;
     width: 100%;
-    font-size: var(--font-size-fluid-0);
+    font-size: var(--font-size-fluid-00);
+    margin-block-start: var(--size-1);
+    margin-block-end: 0;
 
     li {
       font-weight: variables.$base-font-weight-medium;
@@ -34,7 +36,7 @@
     font-weight: variables.$base-font-weight-medium;
     text-decoration: none;
     display: block;
-    padding: px-to-rem.px-to-rem(10px) px-to-rem.px-to-rem(15px);
+    padding: px-to-rem.px-to-rem(5px) px-to-rem.px-to-rem(15px);
     margin-inline: px-to-rem.px-to-rem(5px);
 
     &:hover {
@@ -147,7 +149,7 @@
     display: block;
     position: relative;
     height: unset;
-    padding: px-to-rem.px-to-rem(16px);
+    padding-block: var(--size-1);
     background-color: unset;
   }
 
@@ -157,9 +159,9 @@
       justify-content: center;
       align-items: stretch;
 
-      a {
-        padding-block: px-to-rem.px-to-rem(5px);
-      }
+      // a {
+      //   padding-block: px-to-rem.px-to-rem(5px);
+      // }
     }
 
     li {
