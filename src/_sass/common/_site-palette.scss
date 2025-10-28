@@ -1,18 +1,32 @@
 @use "sass:color";
 
-$color-01: #46516D;
-$color-02: #C2B89F;
-$color-03: #9FA8C2;
-$color-04: #82785F;
-$color-05: #423920;
-$color-06: #101933;
+// $color-01: #46516D;
+// $color-02: #C2B89F;
+// $color-03: #9FA8C2;
+// $color-04: #82785F;
+// $color-05: #423920;
+// $color-06: #101933;
 
-$color-independence: $color-01;
-$color-khaki: $color-02;
-$color-cadet-blue: $color-03;
-$color-shadow: $color-04;
-$color-olive-drab: $color-05;
-$color-maastricht-blue: $color-06;
+  $color-01: #44562f;
+  $color-02: #83934d;
+  $color-03: #b7c88d;
+  $color-04: #e9dfb4;
+  $color-05: #efbfb3;
+  $color-06: #edb66e;
+
+// $color-independence: $color-01;
+// $color-khaki: $color-02;
+// $color-cadet-blue: $color-03;
+// $color-shadow: $color-04;
+// $color-olive-drab: $color-05;
+// $color-maastricht-blue: $color-06;
+
+// $color-forest-green: $color-01;
+// $color-bronze: $color-02;
+// $color-nickel: $color-03;
+// $color-quick-silver: $color-04;
+// $color-cookies-and-cream: $color-05;
+// $color-cosmic-latte: $color-06;
 
 /* General site colors */
 $color-white: rgba(255, 255, 255, 1);
@@ -32,11 +46,20 @@ $color-grey-lighter: color.adjust($color-grey, $lightness: 10%);
 $color-grey-light: color.adjust($color-grey, $lightness: 20%);
 
 // Variants
-$color-independence-lighter: color.adjust($color-independence, $lightness: 10%);
-$color-independence-darker: color.adjust($color-independence, $lightness: -10%);
-$color-khaki-lighter: color.adjust($color-khaki, $lightness: 10%);
-$color-khaki-darker: color.adjust($color-khaki, $lightness: -10%);
-$color-cadet-blue-darker: color.adjust($color-cadet-blue, $lightness: -10%);
-$color-shadow-darker: color.adjust($color-shadow, $lightness: -10%);
-$color-olive-drab-darker: color.adjust($color-olive-drab, $lightness: -10%);
-$color-maastricht-blue-darker: color.adjust($color-maastricht-blue, $lightness: -10%);
+$color-01-lighter: color.adjust($color-01, $lightness: 10%);
+$color-01-darker: color.adjust($color-01, $lightness: -10%);
+$color-02-lighter: color.adjust($color-02, $lightness: 10%);
+$color-02-darker: color.adjust($color-02, $lightness: -10%);
+$color-03-darker: color.adjust($color-03, $lightness: -10%);
+$color-04-darker: color.adjust($color-04, $lightness: -10%);
+$color-05-darker: color.adjust($color-05, $lightness: -10%);
+$color-06-darker: color.adjust($color-06, $lightness: -10%);
+
+// $color-forest-green-lighter: color.adjust($color-forest-green, $lightness: 10%);
+// $color-forest-green-darker: color.adjust($color-forest-green, $lightness: -10%);
+// $color-bronze-lighter: color.adjust($color-bronze, $lightness: 10%);
+// $color-bronze-darker: color.adjust($color-bronze, $lightness: -10%);
+// $color-nickel-darker: color.adjust($color-nickel, $lightness: -10%);
+// $color-quick-silver-darker: color.adjust($color-quick-silver, $lightness: -10%);
+// $color-cookies-and-cream-darker: color.adjust($color-cookies-and-cream, $lightness: -10%);
+// $color-cosmic-latte-darker: color.adjust($color-cosmic-latte, $lightness: -10%);

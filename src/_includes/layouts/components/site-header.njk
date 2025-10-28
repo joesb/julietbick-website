@@ -1,11 +1,16 @@
     <header class="header-main content-canvas">
       <div class="header-main__inner content-canvas-item-full">
         <div class="header-main__logo">
-        {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="site-logo">
+        {% if page.url !== '/' %}<div class="header-main--title-wrapper"><a href="{{ '/' | url }}" class="site-logo">
           <h1 class="header-main--title handwriting-font not-bold">{{ metadata.title }}</h1>
+					<div class="header-main--subtitle">{{ metadata.strapline | wrapWords | safe }}</div>
 					</a>
+				</div>
         {% else %}
+				<div class="header-main--title-wrapper">
 					<h1 class="header-main--title handwriting-font not-bold">{{ metadata.title }}</h1>
+					<div class="header-main--subtitle">{{ metadata.strapline | wrapWords | safe }}</div>
+				</div>
         {% endif %}
         </div>
         <div class="header-main__nav">
