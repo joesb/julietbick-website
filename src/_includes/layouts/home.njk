@@ -11,6 +11,8 @@ siteLogoImg:
     - 219
 styles:
   - home.css
+scripts:
+  - modal-contact.js
 ---
 
       {% if showTitle != false and primary != true %}
@@ -62,3 +64,8 @@ styles:
 {% if pageLinks %}
   {% include "layouts/components/page-pagelinks.njk" %}
 {% endif %}
+
+<div id="contact-modal" class="do-not-display modal contact-modal">
+  <h2>Get in touch</h2>
+  <p>some modal text</p>
+</div>
