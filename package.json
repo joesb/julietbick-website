@@ -15,10 +15,11 @@
   "scripts": {
     "clean": "yarn util:clean",
     "start": "yarn 11ty:serve",
+    "watch": "yarn 11ty:watch",
     "build": "yarn 11ty:build",
     "11ty:build": "(yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
-    "11ty:watch": "npx @11ty/eleventy --watch",
-    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (yarn 11ty:watch & yarn sass:watch)",
+    "11ty:watch": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy --watch & yarn sass:watch)",
+    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy --serve & yarn sass:watch)",
     "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css",
     "sass:watch": "sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
     "util:clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/* || true",

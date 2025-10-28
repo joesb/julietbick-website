@@ -37,6 +37,7 @@ panes:
       [More about Speech & Language Therapy](/slt/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
+      - section-coloured-bg--tertiary
 
   -
     path: /coaching/
@@ -54,7 +55,7 @@ panes:
       [More about Coaching](/coaching/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
-      - section-coloured-bg--secondary
+      - section-coloured-bg--quaternary
   -
     path: /about/
     title: "About Juliet"

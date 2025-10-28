@@ -1,45 +1,48 @@
 @use "../common/variables" as var;
 @use "../common/site-palette" as sp;
+@use "sass:color";
+
+:root {
+  --color-01: #44562f;
+  --color-02: #83934d;
+  --color-03: #b7c88d;
+  --color-04: #e9dfb4;
+  --color-05: #efbfb3;
+  --color-06: #edb66e;
+  --color-white: rgba(255, 255, 255, 1);
+  --color-white-transparent: rgba(255, 255, 255, 0.66);
+  --color-white-dark: rgb(240, 240, 240);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-grey: rgba(25, 25, 25, 1);
+  --color-grey-dark: rgb(12, 12, 12);
+  --color-grey-light: rgb(30, 30, 30);
+  --color-grey-lighter: rgb(51 51 51);
+  --color-cool-grey: rgb(220, 220, 220);
+  --color-cooler-grey: rgb(191, 191, 191);
+}
 
 html {
 
   // Brand colours
-  --color-independence: #{sp.$color-independence};
-  --color-khaki: #{sp.$color-khaki};
-  --color-cadet-blue: #{sp.$color-cadet-blue};
-  --color-shadow: #{sp.$color-shadow};
-  --color-olive-drab: #{sp.$color-olive-drab};
-  --color-maastricht-blue: #{sp.$color-maastricht-blue};
-
-  --color-white: #{sp.$color-white};
-  --color-black: #{sp.$color-black};
-  --color-grey: #{sp.$color-grey};
-  --color-white-dark: #{sp.$color-white-dark};
-  --color-grey-dark: #{sp.$color-grey-darkish};
-  --color-grey-light: #{sp.$color-grey-lightish};
-  --color-grey-lighter: #{sp.$color-grey-lighter};
-  --color-cool-grey: #{sp.$color-white-dark};
-  --color-cooler-grey: #{sp.$color-white-darker};
-
-  --color-brand-primary: var(--color-independence);
-  --color-brand-secondary: var(--color-khaki);
-  --color-brand-tertiary: var(--color-cadet-blue);
-  --color-brand-quaternary: var(--color-shadow);
-  --color-brand-quinary: var(--color-olive-drab);
-  --color-brand-senary: var(--color-maastricht-blue);
+  --color-brand-primary: var(--color-01);
+  --color-brand-secondary: var(--color-02);
+  --color-brand-tertiary: var(--color-03);
+  --color-brand-quaternary: var(--color-04);
+  --color-brand-quinary: var(--color-05);
+  --color-brand-senary: var(--color-06);
   --color-brand-white: var(--color-white);
   --color-brand-black: var(--color-black);
   --color-brand-grey: var(--color-grey);
   --color-brand-text: var(--color-black);
 
-  --color-brand-primary-light: #{sp.$color-independence-lighter};
-  --color-brand-primary-dark: #{sp.$color-independence-darker};
-  --color-brand-secondary-light: #{sp.$color-khaki-lighter};
-  --color-brand-secondary-dark: #{sp.$color-khaki-darker};
-  --color-brand-tertiary-dark: #{sp.$color-cadet-blue-darker};
-  --color-brand-quaternary-dark: #{sp.$color-shadow-darker};
-  --color-brand-quinary-dark: #{sp.$color-olive-drab-darker};
-  --color-brand-senary-dark: #{sp.$color-maastricht-blue-darker};
+  --color-brand-primary-light: #{sp.$color-01-lighter};
+  --color-brand-primary-dark: #{sp.$color-01-darker};
+  --color-brand-secondary-light: #{sp.$color-02-lighter};
+  --color-brand-secondary-dark: #{sp.$color-02-darker};
+  --color-brand-tertiary-dark: #{sp.$color-03-darker};
+  --color-brand-quaternary-dark: #{sp.$color-04-darker};
+  --color-brand-quinary-dark: #{sp.$color-05-darker};
+  --color-brand-senary-dark: #{sp.$color-06-darker};
 
   // Text colours
   --color-text-black: var(--color-brand-black);
@@ -85,7 +88,7 @@ html {
 }
 
 body {
-  background-color: var(--color-white-dark);
+  background-color: var(--color-white);
 }
 
 :focus-visible {
