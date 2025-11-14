@@ -44,10 +44,10 @@
   &::after {
     content: "";
     position: absolute;
-    bottom: -1.5rem;
-    left: 3.75rem;
+    bottom: -1.7rem;
+    left: 2.35rem;
     height: 2.5rem;
-    width: 85%;
+    width: 95%;
     border-style: solid;
     border-width: 0.35rem;
     border-color: var(--header-main-text-color) transparent transparent transparent;
@@ -59,6 +59,7 @@
   position: absolute;
   bottom: 0.5rem;
   right: 0;
+  text-transform: lowercase;
 
   span {
     &:not(:first-of-type) {

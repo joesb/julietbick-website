@@ -12,7 +12,7 @@ image:
 ---
 
   {% if image.path %}
-    {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){.image-rounded eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
+    {% ImgFigure image.caption, image.figClasses %}![{{ image.alt }}]({{ image.path }}){ {{ image.classes | classes11ty}} eleventy:widths="{{ image.widths }}" eleventy:formats="webp,jpg"}{% endImgFigure %}
   {% endif %}
 
 {{ content | safe }}
