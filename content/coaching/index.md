@@ -65,6 +65,8 @@ Do you agree with this list? Is there anything missing?
 
 What helps you trust someone?
 
+As we build trust together within our coaching, our topics in conversations may extend from our “Open/free” quadrant. We may discover new insights that will support your own personal growth -currently unknown to us both within the “unknown” area of this framework.
+
 {% ImgFigure 'Johari Window model.', image.classes_1 %}![Johari Window model](/public/images/johariwindowmodeldiagram.png){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
 
 ---
