@@ -258,6 +258,31 @@ export default async function(eleventyConfig) {
 
   eleventyConfig.addFilter('padNumber', (text, num, char) => {
     return text.toString().padStart(num, char);
+  });
+
+  eleventyConfig.addFilter('classes11ty', (classes) => {
+    try {
+      const text = [];
+      classes.forEach((el) => {
+        text.push('.' + el);
+      });
+      
+      return text.join(' ');
+    }
+    catch(error) {
+      return;
+    }
+  });
+
+  /**
+   * Wraps a string around each word
+   *
+   * @param {string} str The string to transform
+   * @param {string} tmpl Template that gets interpolated
+   * @returns {string} The given input splitted by words
+   */
+  eleventyConfig.addFilter('wrapWords', (str, tmpl) => {
+    return str.replace(/\w+/g, tmpl || "<span>$&</span>");
   })
 
     /* COLLECTIONS */

@@ -15,10 +15,11 @@
   "scripts": {
     "clean": "yarn util:clean",
     "start": "yarn 11ty:serve",
+    "watch": "yarn 11ty:watch",
     "build": "yarn 11ty:build",
     "11ty:build": "(yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy)",
-    "11ty:watch": "npx @11ty/eleventy --watch",
-    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (yarn 11ty:watch & yarn sass:watch)",
+    "11ty:watch": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy --watch & yarn sass:watch)",
+    "11ty:serve": "(yarn util:clean) && (yarn sass:build) && (npx @11ty/eleventy --dryrun) && (npx @11ty/eleventy --serve & yarn sass:watch)",
     "sass:build": "sass --style=expanded ./src/_sass/:./src/_includes/assets/css/ && npx postcss ./src/_includes/assets/css/*.css --use autoprefixer -d ./src/_includes/assets/css",
     "sass:watch": "sass --watch --style=expanded ./src/_sass/:./src/_includes/assets/css/",
     "util:clean": "npx rimraf -v _site/ src/_includes/assets/css/* content/public/img/* || true",
@@ -31,7 +32,7 @@
     "@11ty/eleventy-navigation": "^1.0.4",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@quasibit/eleventy-plugin-schema": "^1.11.1",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.22",
     "clean-css": "^5.3.3",
     "dotenv": "^17.2.3",
     "eleventy-plugin-time-to-read": "^1.3.0",
@@ -44,11 +45,11 @@
     "minify-xml": "^4.5.2",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "resend": "^6.1.2",
-    "rimraf": "^6.0.1",
-    "sass": "^1.93.2",
+    "resend": "^6.5.2",
+    "rimraf": "^6.1.2",
+    "sass": "^1.94.2",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3",
-    "wrangler": "^4.42.2"
+    "wrangler": "^4.50.0"
   }
 }

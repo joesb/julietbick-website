@@ -43,7 +43,7 @@
 
 .section-coloured-bg--secondary {
   --section-coloured-bg: var(--color-brand-secondary);
-  --section-coloured-bg-text: var(--color-text);
+  --section-coloured-bg-text: var(--color-text-white);
 
   &.faux-block-link-parent {
     &:hover {
@@ -65,7 +65,7 @@
 
 .section-coloured-bg--quaternary {
   --section-coloured-bg: var(--color-brand-quaternary);
-  --section-coloured-bg-text: var(--color-text-white);
+  --section-coloured-bg-text: var(--color-text);
   
   &.faux-block-link-parent {
     &:hover {
@@ -87,7 +87,7 @@
 
 .section-coloured-bg--senary {
   --section-coloured-bg: var(--color-brand-senary);
-  --section-coloured-bg-text: var(--color-text-white);
+  --section-coloured-bg-text: var(--color-text);
   
   &.faux-block-link-parent {
     &:hover {

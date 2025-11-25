@@ -42,6 +42,26 @@
   filter: brightness(50%);
 }
 
+.image-alpha-75 {
+  filter: opacity(75%);
+}
+
+.image-alpha-67 {
+  filter: opacity(67%);
+}
+
+.image-alpha-50 {
+  filter: opacity(50%);
+}
+
+.image-alpha-33 {
+  filter: opacity(33%);
+}
+
+.image-alpha-25 {
+  filter: opacity(25%);
+}
+
 .image-rounded {
   border-radius: var(--size-1);
 }

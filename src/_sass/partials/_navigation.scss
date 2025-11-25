@@ -17,7 +17,8 @@
 .main-nav,
 .footer-main__nav,
 .footer__nav {
-  --nav-text-color: var(--color-text-black);
+  --nav-text-color: var(--color-text-white);
+
   ul {
     list-style: none;
     padding: 0;
@@ -171,7 +172,7 @@
       align-items: center;
 
       &:not(:last-child) {
-        border-right: 1px solid var(--color-brand-senary);
+        border-right: 1px solid var(--color-brand-tertiary);
       }
     }
   }

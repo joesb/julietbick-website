@@ -3,6 +3,9 @@
 -------------------------------------------------------------- */
 @use "tools/respond-to";
 
+// Modal styles
+@use "./components/modal";
+
 .home-layout,
 .home-layout--panes {
   margin-block: var(--size-4);

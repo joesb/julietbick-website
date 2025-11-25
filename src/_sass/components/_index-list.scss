@@ -39,7 +39,7 @@
   justify-content: center;
   align-items: center;
   border-radius: var(--size-1);
-  background-color: var(--color-cool-grey);
+  background-color: var(--color-white-dark);
   transition: all 0.3s ease;
   // color: var(--surface-2);
 
@@ -227,7 +227,7 @@
 
 .index-list__item {
   &:hover {
-    background-color: var(--color-cooler-grey);
+    background-color: var(--color-cool-grey);
 
     .index-list__item__content {
       transition: all 0.3s ease;
