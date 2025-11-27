@@ -26,3 +26,17 @@ I believe in a strengths-based approach to our work together and focus on commun
 I have lived and worked in Birmingham for over 20 years. Communicating with others brings me joy, and I have been lucky to have had a career with communication at the centre.{.content-canvas-item-main-start-main-right}
 
 Being myself with others, so that they can be who they are, is my passion.
+
+## Where do I work?
+
+I can work in your home or in another setting that works for us -for example a nursery or at school
+
+## How do I work?
+
+We will work together to give everyone confidence with how they are communicating with your child.
+
+We will follow your child’s interests and join in with what they are doing.
+
+Communication comes from relationship and connection.
+
+We will have fun together!
