@@ -6,10 +6,33 @@ eleventyNavigation:
   key: Speech & Language Therapy
   order: 20
 image:
+  social: ./content/public/images/originals/pexels-mikhail-nilov-6932014.jpg
+  path: /public/images/originals/pexels-mikhail-nilov-6932014.jpg
+  alt: Woman in White Long Sleeve Shirt Holding Pink and White Floral Textile
+  widths:
+    - 300
+    - 500
+    - 1000
+    - 1980
+  caption: |
+    [Photo](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-holding-pink-and-white-floral-textile-6932014/){rel=noopener target=_blank} by [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/){rel=noopener target=_blank}
+  classes:
+    - page-hero-image--image
+    - image-obj-cover
+    - image-obj-pos-higher
+    - image-darken-33
+  figClasses:
+    - content-canvas-item-full
+    - page-hero-image
   side_classes:
     - content-canvas-item-wide-left-sm
     - content-canvas-item-left--span-3
     - margin-block-md
+class:
+  page:
+    - page-with-hero-image
+  title:
+    - page-title-white
 ---
 
 I have been practising as a Speech and Language Therapist since 1992, working with children and young people to develop their communication skills. I primarily work with autistic children and young people.{.bold .larger}

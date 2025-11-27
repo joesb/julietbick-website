@@ -15,7 +15,7 @@ image:
     - 1000
     - 1980
   caption: |
-    [Photo](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-holding-pink-and-white-floral-textile-6932014/){rel=noopener target=_blank} by [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/){rel=noopener target=_blank}
+    [Photo](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-brown-wooden-armchair-5217852/){rel=noopener target=_blank} by [Antoni Shkraba Studio](https://www.pexels.com/@shkrabaanthony/){rel=noopener target=_blank}
   classes:
     - page-hero-image--image
     - image-obj-cover
