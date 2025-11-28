@@ -9,7 +9,7 @@
   height: 100vh;
   box-sizing: border-box;
   background: var(--color-white);
-  padding: var(--size-10);
+  padding: clamp(var(--size-2), 5vw, var(--size-10));
   border-radius: 0;
 
   a.close-modal {
@@ -29,7 +29,7 @@
 .contact-model-inner {
   display: grid;
   gap: var(--size-7);
-  grid-template-columns: repeat(auto-fill, 40rem);
+  grid-template-columns: repeat(auto-fill, minmax(20rem 1fr));
 }
 
 .contact-modal[aria-hidden=false] {

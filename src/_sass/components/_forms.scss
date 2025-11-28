@@ -19,6 +19,7 @@
   }
 
   label {
+    font-size: var(--font-size-fluid-00);
     text-align: right;
   }
 }
@@ -31,6 +32,8 @@
 
 .required {
   color: var(--color-red);
+  display: inline-block;
+  margin-inline: 0.125rem;
 }
 
 .form-group {
