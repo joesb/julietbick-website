@@ -1,4 +1,4 @@
-@use "../tools/respond-to";
+@use "../tools/respond-to" as rt;
 
 .header-main {
   --header-main-text-color: var(--color-white);
@@ -35,17 +35,18 @@
 .header-main--title-wrapper {
   position: relative;
   margin-block-end: var(--size-2);
+  min-height: 4.5rem;
 }
 
 .header-main--title {
-  font-size: var(--font-size-fluid-5);
+  font-size: 3rem;
   position: relative;
 
   &::after {
     content: "";
     position: absolute;
     bottom: -1.7rem;
-    left: 2.35rem;
+    right: -1rem;
     height: 2.5rem;
     width: 95%;
     border-style: solid;
@@ -57,19 +58,19 @@
 
 .header-main--subtitle {
   position: absolute;
-  bottom: 0.5rem;
-  right: 0;
+  bottom: 0;
+  right: 0.25rem;
   text-transform: lowercase;
+  font-size: 0.8rem;
 
   span {
     &:not(:first-of-type) {
       font-weight: var(--font-weight-bold);
-      font-size: larger;
     }
   }
 }
 
-@include respond-to.respond-to('medium') {
+@include rt.respond-to('medium') {
   .header-main__inner {
     padding: 0.5rem 1.5rem;
     display: grid;
@@ -90,7 +91,30 @@
   .header-main__nav {
     grid-area: nav;
   }
+
+  .header-main--title {
+    font-size: 3.75rem;
+  }
+
+  .header-main--subtitle {
+    bottom: 0.5rem;
+    right: 0.33rem;
+    font-size: 1rem;
+  }
 }
+
+@include rt.respond-to('large') {
+  .header-main--title {
+    font-size: 4.5rem;
+  }
+
+  .header-main--subtitle {
+    bottom: 0.35rem;
+    right: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
 
 .header-main__logo {
   position: relative;

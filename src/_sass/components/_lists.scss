@@ -14,7 +14,7 @@ ol {
   &.inline-list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: var(--size-fluid-00);
+    gap: var(--size-fluid-2);
 
     &.inline-list--space-evenly {
       justify-content: space-evenly;

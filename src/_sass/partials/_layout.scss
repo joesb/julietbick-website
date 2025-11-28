@@ -14,7 +14,7 @@ body {
     "main main main main main"
     "foot foot foot foot foot"
   ;
-  grid-template-columns: 2fr 1fr minmax(30ch, variables.$break-large) 1fr 2fr;
+  grid-template-columns: minmax(0, auto) 5vw minmax(30ch, 90vw) 5vw minmax(0, auto);
   grid-template-rows: minmax(ptr.px-to-rem(90px), 10rem) auto auto;
 }
 
@@ -32,8 +32,9 @@ footer {
   grid-area: foot;
 }
 
-@include rt.respond-to('small') {
+@include rt.respond-to('medium') {
   body {
+    grid-template-columns: 2fr 1fr minmax(30ch, variables.$break-large) 1fr 2fr;
     grid-template-rows: minmax(ptr.px-to-rem(90px), auto) auto auto;
   }
 }
