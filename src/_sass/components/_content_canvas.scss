@@ -161,17 +161,17 @@
       [full-start]
         minmax(2vw, auto)
       [wide-start]
-        minmax(10vw, 15ch)
+        minmax(10vw, 20ch)
       [main-start]
         minmax(5ch, 10ch)
       [main-left]
-        minmax(10ch, 15ch)
+        minmax(10ch, 18ch)
       [main-mid]
-        minmax(10ch, 15ch)
+        minmax(10ch, 18ch)
       [main-right]
         minmax(5ch, 10ch)
       [main-end]
-        minmax(10vw, 15ch)
+        minmax(10vw, 20ch)
       [wide-end]
         minmax(2vw, auto)
       [full-end];
@@ -246,7 +246,7 @@
 
 @include respond-to.respond-to('small') {
   .content-canvas-item-wide-right {
-    grid-column: main-start/wide-end;
+    grid-column: main-mid/wide-end;
   }
   .content-canvas-item-left {
     grid-column: main-start/main-mid;

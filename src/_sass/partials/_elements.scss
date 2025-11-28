@@ -94,3 +94,16 @@ body {
 :focus-visible {
     outline-color: unset;
 }
+
+:where(blockquote) {
+  margin-block: var(--size-3);
+  padding-block: var(--size-fluid-0);
+}
+
+:where(dl) {
+  margin-inline: var(--size-3);
+}
+
+:where(dd) {
+  margin-inline-start: var(--size-3);
+}
