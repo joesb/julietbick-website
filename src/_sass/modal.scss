@@ -1,0 +1,53 @@
+.contact-modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  max-width: unset;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background: var(--color-white);
+  padding: var(--size-10);
+  border-radius: 0;
+
+  a.close-modal {
+    top: var(--size-6);
+    right: var(--size-6);
+    height: var(--size-6);
+    width: var(--size-6);
+  }
+
+  .contact-form {
+    max-width: 40rem;
+  }
+
+
+}
+
+.contact-model-inner {
+  display: grid;
+  gap: var(--size-7);
+  grid-template-columns: repeat(auto-fill, 40rem);
+}
+
+.contact-modal[aria-hidden=false] {
+  .contact-model-inner {
+    animation: mslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+.contact-modal-title {
+  font-size: var(--font-size-fluid-4);
+}
+
+@keyframes mslideIn {
+    from {
+        transform: translateY(15%)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}

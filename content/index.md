@@ -83,3 +83,5 @@ I've been a practising Speech & Language Therapist since 1992. I work primarily 
 This includes working with their families, carers and school staff to support their communication with the autistic child or young person.
 
 I believe in a strengths-based approach to our work together and focus on communication that stems from trust and connection.
+
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}

@@ -1,14 +1,15 @@
 $(document).ready(function () {
   var contactModal = $('#contact-modal');
-  var modalCookie = Cookies.get('contact-modal');
-  
-  if (modalCookie == undefined) {
-    setTimeout(function() {
-      contactModal.modal();
-    }, 2000);
-  }
 
-  contactModal.on($.modal.BEFORE_CLOSE, function(e, m) {
-    Cookies.set('contact-modal', 'closed', { expires: 7 });
+  // contactModal.on($.modal.BEFORE_BLOCK, function(e, m) {
+  //   m.options.fadeDuration = 100;
+  // });
+
+  contactModal.on($.modal.OPEN, function(e, m) {
+    m.$elm.attr("aria-hidden", "false").addClass("is-open");
+  });
+
+  contactModal.on($.modal.CLOSE, function(e, m) {
+    m.$elm.attr("aria-hidden", "true").removeClass("is-open");
   });
 });

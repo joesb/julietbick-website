@@ -30,7 +30,7 @@ export async function onRequestPost(context) {
       return Response.redirect("https://julietbick.com/contact-confirmation/", 303)
     }
 
-    const messageContent = `Sender: ${output.fullname} — ${output.email}
+    const messageContent = `Sender: ${output.name} — ${output.email}
 
 ---
 
@@ -41,7 +41,7 @@ ${output.message}`;
       from: context.env.SENDER_EMAIL,
       replyTo: output.email,
       to: context.env.RECIPIENT_EMAIL,
-      subject: `[JulietBick.com] Contact form request from ${output.fullname}: ${output.subject}`,
+      subject: `[JulietBick.com] Contact from ${output.name}: ${output.subject}`,
       text: messageContent,
     });
     console.log({data, error});
