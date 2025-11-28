@@ -23,6 +23,16 @@
   }
 }
 
+:where(textarea,select,input:not([type=button],[type=submit],[type=reset])) {
+  background-color: var(--color-white-dark);
+  border-radius: var(--radius-1);
+  padding: var(--size-2);
+}
+
+.required {
+  color: var(--color-red);
+}
+
 .form-group {
   display: grid;
   grid-auto-flow: row;
@@ -40,9 +50,11 @@
 }
 
 .form-group--submit {
+  margin-block: var(--size-3);
   button {
     grid-column: 2;
-
+    font-size: var(--font-size-fluid-02);
+    padding-block: var(--size-3);
   }
 }
 

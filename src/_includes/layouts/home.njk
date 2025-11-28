@@ -10,8 +10,19 @@ siteLogoImg:
     - 164
     - 219
 styles:
-  - home.css
+  internal:
+    - home.css
+    - modal.css
+  external:
+    - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+scripts:
+  internal:
+    - modal-contact.js
+  external:
+    - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"
 ---
+
+    {# - "https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js" #}
 
       {% if showTitle != false and primary != true %}
       {% include "layouts/components/title-bar.njk" %}
@@ -62,3 +73,5 @@ styles:
 {% if pageLinks %}
   {% include "layouts/components/page-pagelinks.njk" %}
 {% endif %}
+
+{% include "layouts/components/contact-modal.njk" %}
