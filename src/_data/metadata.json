@@ -19,7 +19,10 @@
       "name": "Association of Speech and Language Therapists in Independent Practice",
       "short_name": "ASLTIP",
       "machine_name": "asltip",
-      "url": "https://asltip.com/"
+      "url": "https://asltip.com/",
+      "group": [
+        "salt"
+      ]
     },
     {
       "name": "Health & Care Professions Council",
@@ -31,7 +34,20 @@
       "name": "Royal College of Speech & Language Therapists",
       "short_name": "RCSLT",
       "machine_name": "rcslt",
-      "url": "https://www.rcslt.org/"
+      "url": "https://www.rcslt.org/",
+      "group": [
+        "salt"
+      ]
+    },
+    {
+      "name": "Association for Coaching",
+      "short_name": "A4C",
+      "machine_name": "a4c",
+      "level": "Associate Member",
+      "url": "https://www.associationforcoaching.com/",
+      "group": [
+        "coaching"
+      ]
     }
   ]
 }

@@ -36,6 +36,8 @@ class:
       - margin-block-start-none
     block_end:
       - margin-block-end-none
+showMemberships: true
+group: coaching
 ---
 
 Building on a career of supporting communication development, I have expanded my professional practice into coaching. This step reflected my growing interest in supporting personal development more broadly, helping people build confidence, navigate challenges, and unlock their own capacity for change.

@@ -3,7 +3,7 @@ title: "I'm Juliet"
 layout: page.njk
 date: 2025-10-14T14:12:12
 eleventyNavigation:
-  key: About
+  key: About me
   order: 100
 image:
   side_classes:

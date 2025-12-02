@@ -17,6 +17,12 @@ image:
 
 {{ content | safe }}
 
+{% if showMemberships %}
+  <div class="content-canvas-item-wide margin-block-vlg">
+  {% include "layouts/components/memberships-list.njk" %}
+  </div>
+{% endif %}
+
 {% if pagination.data %}
   {% include "layouts/components/pagination-articles.njk" %}
 

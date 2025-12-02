@@ -303,6 +303,10 @@ export default async function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('includes', (list, item) => {
+    return list.includes(item);
+  });
+
   function sortByOrder(collection, field = 'order', andSticky = false) {
     if (field == 'eleventyNavigation') {
       return collection.sort((a, b) => {

@@ -1,9 +1,11 @@
 <section class="memberships">
   <ul class="memberships--list bare-list inline-list inline-list--space-evenly">
     {% for item in metadata.memberships %}
+    {% if group === undefined or (group and item.group and item.group.includes(group)) %}
     <li class="memberships--item membership-{{ item.machine_name }}">
-      <a href="{{ item.url }}" rel="noreferrer noopener{% if item.rel %} {{ item.rel }}{% endif %}" target="_blank" class="memberships--item-link {{ item.machine_name }}{% if item.no_icon %} social-site--no-icon{% endif %}" title="Member of {{ item.name }}"><span class="hide-text">{{ item.name }}</span></a>
+      <a href="{{ item.url }}" rel="noreferrer noopener{% if item.rel %} {{ item.rel }}{% endif %}" target="_blank" class="memberships--item-link {{ item.machine_name }}{% if item.no_icon %} social-site--no-icon{% endif %}" title="{% if item.level %}{{ item.level }}{% else %}Member{% endif %} of {{ item.name }}"><span class="hide-text">{{ item.name }}</span></a>
     </li>
+    {% endif %}
     {% endfor %}
   </ul>
 </section>

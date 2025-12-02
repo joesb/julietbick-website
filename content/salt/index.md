@@ -33,6 +33,8 @@ class:
     - page-with-hero-image
   title:
     - page-title-white
+showMemberships: true
+group: salt
 ---
 
 I have been practising as a Speech and Language Therapist since 1992, working with children and young people to develop their communication skills. I primarily work with autistic children and young people.{.bold .larger}

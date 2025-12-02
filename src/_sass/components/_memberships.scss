@@ -31,3 +31,6 @@ $base_url: "/public/images/memberships/";
   --membership-logo: url(#{$base_url + "rcslt-logo-sq.webp"});
 }
 
+.membership-a4c {
+  --membership-logo: url(#{$base_url + "a4c-logo-sq.webp"});
+}
