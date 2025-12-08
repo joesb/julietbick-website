@@ -104,12 +104,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy-navigation@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "@11ty/eleventy-navigation@npm:1.0.4"
+"@11ty/eleventy-navigation@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@11ty/eleventy-navigation@npm:1.0.5"
   dependencies:
     dependency-graph: ^1.0.0
-  checksum: 21d2e361d4f13d0a9fd8dd1358ad23532928d31e4d26c832f144aa703ea3457f29efe6e1dd9ee742a392ef2b635ff7d6f5c7b0b9731bc08928e58ac3786245d1
+  checksum: d8b0b2a28198142ea5057a971b371d0410538e4854e2b63946964e63a151b7a7ea8cda80b6dc5abd6a1ddc03d42533842a552ac29ce474dcfdaf35e3ec88dfdb
   languageName: node
   linkType: hard
 
@@ -2434,7 +2434,7 @@ __metadata:
   dependencies:
     "@11ty/eleventy": ^3.1.2
     "@11ty/eleventy-img": ^6.0.4
-    "@11ty/eleventy-navigation": ^1.0.4
+    "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
     "@quasibit/eleventy-plugin-schema": ^1.11.1
     autoprefixer: ^10.4.22
