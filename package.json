@@ -50,6 +50,6 @@
     "sass": "^1.94.2",
     "sass-autoprefixer": "^1.0.1",
     "uglify-js": "^3.19.3",
-    "wrangler": "^4.51.0"
+    "wrangler": "^4.54.0"
   }
 }
