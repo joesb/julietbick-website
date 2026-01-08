@@ -22,6 +22,7 @@
 .footer-main__container {
   display: grid;
   grid-auto-flow: row;
+  row-gap: var(--size-9);
   grid-template-areas:
     "left"
     "right"
@@ -58,6 +59,44 @@
   :where(dt) {
     margin-block-start: unset;
     text-align: right;
+  }
+}
+
+.footer-main--site-logo {
+  position: relative;
+}
+
+.footer-main--site-title {
+  font-size: 3rem;
+  position: relative;
+  max-inline-size: var(--size-header-1);
+  display: inline-block;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -0.85rem;
+    right: -0.5rem;
+    height: 2rem;
+    width: 95%;
+    border-style: solid;
+    border-width: 0.35rem;
+    border-color: var(--color-black) transparent transparent transparent;
+    border-radius: 80%;
+  }
+}
+
+.footer-main--site-subtitle {
+  position: absolute;
+  bottom: -0.67rem;
+  left: 2.25rem;
+  text-transform: lowercase;
+  font-size: 0.8rem;
+
+  span {
+    &:not(:first-of-type) {
+      font-weight: var(--font-weight-bold);
+    }
   }
 }
 
