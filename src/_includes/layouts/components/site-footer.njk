@@ -29,8 +29,8 @@
 			{% set cls = cycler("odd", "even") %}
 			{%- for entry in navPages %}
 			{% if entry.url != "/" %}
-				<li {% activepath entry.url, page.url %} class="{{ cls.next() }}">
-					<a href="{{ entry.url }}">{{ entry.title }}</a>
+				<li class="{{ cls.next() }}">
+					<a href="{{ entry.url }}" class="footer-menu--item-link {% activepath entry.url, page.url %}">{{ entry.title }}</a>
 				</li>
 			{% endif %}
 			{%- endfor %}
