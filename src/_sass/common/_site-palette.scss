@@ -8,11 +8,11 @@
 // $color-06: #101933;
 
   $color-01: #44562f;
-  $color-02: #83934d;
+  $color-02: #b4bbac;
   $color-03: #b7c88d;
   $color-04: #e9dfb4;
   $color-05: #efbfb3;
-  $color-06: #edb66e;
+  $color-06: #562f54;
 
 // $color-independence: $color-01;
 // $color-khaki: $color-02;
@@ -53,7 +53,7 @@ $color-02-darker: color.adjust($color-02, $lightness: -10%);
 $color-03-darker: color.adjust($color-03, $lightness: -10%);
 $color-04-darker: color.adjust($color-04, $lightness: -10%);
 $color-05-darker: color.adjust($color-05, $lightness: -10%);
-$color-06-darker: color.adjust($color-06, $lightness: -10%);
+$color-06-darker: color.adjust($color-06, $lightness: -15%);
 
 // $color-forest-green-lighter: color.adjust($color-forest-green, $lightness: 10%);
 // $color-forest-green-darker: color.adjust($color-forest-green, $lightness: -10%);

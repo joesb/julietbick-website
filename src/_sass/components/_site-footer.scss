@@ -2,6 +2,9 @@
 @use "../tools/respond-to";
 
 .footer-main {
+  border-top-color: var(--color-brand-quinary-dark);
+  border-top-width: var(--size-2);
+  border-top-style: solid;
   background-color: var(--color-brand-quinary);
   color: var(--color-text);
   padding-block: var(--size-9);

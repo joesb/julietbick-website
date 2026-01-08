@@ -20,8 +20,16 @@
     <label for="i-subject">Message subject<span class="required">*</span></label>
     <input id="i-subject" type="text" name="subject" required />
   </div>
+  
+  <div class="form-group form-group--input form-group--radios margin-block-start-md">
+    <p>Are you contacting me for …?</p>
+    
+    <input id="i-topic-coaching" type="radio" name="topic" required /> <label for="i-topic-coaching">Coaching</label>
+    <input id="i-topic-salt" type="radio" name="topic" required /> <label for="i-topic-salt">Speech and Language Therapy</label>
+    <input id="i-topic-specialist-mentoring" type="radio" name="topic" required /> <label for="i-topic-specialist-mentoring">Specialist Mentoring</label>
+  </div>
 
-  <div class="form-group form-group--input">
+  <div class="form-group form-group--input margin-block-start-md">
     <label for="i-message">Your message<span class="required">*</span></label>
     <textarea id="i-message" name="message" required rows="5" cols="33"></textarea>
   </div>

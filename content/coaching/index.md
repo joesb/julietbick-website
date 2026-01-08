@@ -93,7 +93,7 @@ As we trust the coaching process together, we can create space to explore, disco
 
 We will need to trust each other in our coaching
 
-Read these 7 factors for cultivating trust from Brene Brown:
+Do you agree with Brene Brown’s 7 factors for cultivating trust?
 
 - **Boundaries:** You are willing to say no. You respect my boundaries.
 - **Reliability:** You do what you say you’ll do.
@@ -103,29 +103,30 @@ Read these 7 factors for cultivating trust from Brene Brown:
 - **Non-judgment:** We can each ask for what we need.
 - **Generosity:** You assume the best of others’ intentions, words, actions
 
-Do you agree with this list? Is there anything missing?
+Is there anything else you would add?
 
-**BRAVING:** do you think it’s brave to trust someone?
+## Braving
 
-What helps you trust someone?
+Do you think it’s brave to trust someone? What helps you trust someone?
 
-As we build trust together within our coaching, our topics in conversations may extend from our “Open/free” quadrant. We may discover new insights that will support your own personal growth -currently unknown to us both within the “unknown” area of this framework.
+Looking at the model below, as we build trust together within our coaching our topics in conversations may extend from our “Open/free” quadrant. We may discover new insights that will support your own personal growth -currently unknown to us both within the “unknown” area of this framework.
 
 {% ImgFigure 'Johari Window model.', image.classes_1 %}![Johari Window model](/public/images/johariwindowmodeldiagram.png){.image-rounded .image-border eleventy:widths="200,350,640"}{% endImgFigure %}
 
----
-
-[Global Code of Ethics for Coaches, Mentors, and Supervisors](https://www.globalcodeofethics.org/){.small rel="noopener" target="_blank"}
+[Global Code of Ethics for Coaches, Mentors, and Supervisors](https://www.globalcodeofethics.org/){rel="noopener" target="_blank"}
 
 ---
 
 ## What will happen when you contact me?
 
-Here's what to expect.
+If you would like to work with me as your coach, here’s what to expect.
+
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+{.center}
 
 ### Our initial conversation
 
-This is important to check we are a “good fit”
+This is important to check we are a “good fit”.
 
 I will share with you how I work and ask you about what has brought you to coaching.
 
@@ -220,3 +221,8 @@ If either of us need to stop our sessions earlier, we will do this as set out in
 Sometimes, as set out in the above document, I may need to suggest you seek another coach or another type of support, for example counselling.
 
 At a future point, we can begin meet again if this is what we both think will be useful for you.
+
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+{.center}
+
+---

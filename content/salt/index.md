@@ -43,6 +43,14 @@ This includes working with their families, carers and school staff to support th
 
 I believe in a strengths-based approach to our work together and will focus on communication that stems from trust and connection.
 
+We will work together to give everyone confidence with how they are communicating with your child.
+
+We will follow your child’s interests and join in with what they are doing.
+
+Communication comes from relationship and connection.
+
+We will have fun together!
+
 {% ColourBG 'tertiary' %}
   {% Markdown %}
 > My work is neuro-affirming.{.vlarge .bold .headings-font .lineheight-1}
