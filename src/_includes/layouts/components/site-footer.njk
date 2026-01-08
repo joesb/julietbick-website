@@ -1,6 +1,22 @@
 <footer class="footer-main content-canvas">
 	<div class="footer-main__container container content-canvas-item-wide">
-		<nav aria-label="Find out more" class="footer-main__nav footer-main__left">
+		<div class="footer-main__logo footer-main___left">
+      {% if page.url !== '/' %}<a href="{{ '/' | url }}" class="footer-main--site-logo">
+				<div class="footer-main--site-title-wrapper">
+					<div class="footer-main--site-title handwriting-font not-bold">{{ metadata.title }}</div>
+				</div>
+				{% if metadata.strapline %}<div class="footer-main--site-subtitle">{{ metadata.strapline | wrapWords | safe }}</div>{% endif %}
+			</a>
+      {% else %}
+      <div class="footer-main--site-logo">
+				<div class="footer-main--site-title-wrapper">
+        	<div class="footer-main--site-title handwriting-font not-bold">{{ metadata.title }}</div>
+				</div>
+        {% if metadata.strapline %}<div class="footer-main--site-subtitle">{{ metadata.strapline | wrapWords | safe }}</div>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+		<nav aria-label="Find out more" class="footer-main__nav footer-main__right">
 			{# <ul>
 				{%- for footer in collections.footerNav -%}
 				<li>
@@ -13,14 +29,14 @@
 			{% set cls = cycler("odd", "even") %}
 			{%- for entry in navPages %}
 			{% if entry.url != "/" %}
-				<li {% activepath entry.url, page.url %} class="{{ cls.next() }}">
-					<a href="{{ entry.url }}">{{ entry.title }}</a>
+				<li class="{{ cls.next() }}">
+					<a href="{{ entry.url }}" class="footer-menu--item-link {% activepath entry.url, page.url %}">{{ entry.title }}</a>
 				</li>
 			{% endif %}
 			{%- endfor %}
 			</ul>
 		</nav>
-		<div class="footer-main__container__contact-me footer__nav footer-main__right">
+		{# <div class="footer-main__container__contact-me footer__nav footer-main__right">
       {% if metadata.social_site | length %}
 			<h3 class="h4-style">Follow me on:</h3>
 			<dl class="footer-main__container__contact-me__list">
@@ -30,6 +46,6 @@
 				{% endfor %}
 			</dl>
       {% endif %}
-		</div>
+		</div> #}
 	</div>
 </footer>

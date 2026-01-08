@@ -32,6 +32,8 @@ export async function onRequestPost(context) {
 
     const messageContent = `Sender: ${output.name} — ${output.email}
 
+Service area: ${output.topic}
+
 ---
 
 ${output.message}`;

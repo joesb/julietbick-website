@@ -43,11 +43,16 @@
     &:hover {
       color: var(--nav-text-color);
       text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 2px;
     }
 
     &.current {
       // background-color: var(--surface-4);
       font-weight: var(--font-weight-bold);
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 2px;
     }
   }
 }
@@ -128,20 +133,6 @@
         }
       }
     }
-  }
-}
-
-.footer-main__nav__list {
-  display: grid;
-  gap: 1rem;
-  grid-auto-flow: row;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  margin-block-end: 3rem;
-
-  >* {
-    margin: 0;
-    padding: 0;
   }
 }
 

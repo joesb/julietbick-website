@@ -39,7 +39,7 @@
 
 @include rt.respond-to('medium') {
   .contact-model-inner {
-    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    grid-template-columns: 2fr 3fr;
   }
 }
 

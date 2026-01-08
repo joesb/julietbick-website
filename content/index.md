@@ -25,51 +25,53 @@ panes:
     path: /slt/
     title: "Speech & Language Therapy"
     image:
-      path: content/public/images/originals/pexels-nikolaeva-nastia-3312562-8902755.jpg
-      alt: "Meditating"
+      path: content/public/images/originals/pexels-mikhail-nilov-6932014.jpg
+      alt: "Woman in White Long Sleeve Shirt Holding Pink and White Floral Textile"
       class: "home-panes--pane--img image-obj-cover image-obj-pos-higher"
       picCls: "link--internal__image"
     text: |
-      **Pinterest bicycle rights prism, poke 90's bushwick succulents** ramps hella heirloom gatekeep farm-to-table.  Hoodie PBR&B deep v, pok pok church-key cray art party jawn pabst.  Keffiyeh gochujang slow-carb freegan meditation synth.
+      **I have been practising as a Speech and Language Therapist since 1992, working with children and young people to develop their communication skills.**
       
-      Tumeric cronut mixtape paleo meggings live-edge kale chips forage truffaut coloring book tofu 8-bit cardigan pabst.  Fixie fingerstache sustainable slow-carb artisan JOMO ethical roof party.
+      I primarily work with autistic children and young people. This includes working with their families, carers and school staff. I believe in a strengths-based approach.
 
       [More about Speech & Language Therapy](/slt/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
-      - section-coloured-bg--tertiary
+      - section-coloured-bg--secondary
 
   -
     path: /coaching/
     title: "Coaching"
     image:
-      path: content/public/images/originals/pexels-yankrukov-8436398.jpg
-      alt: "Meditating"
+      path: content/public/images/originals/pexels-shkrabaanthony-5217852.jpg
+      alt: "Woman in white long sleeve shirt sitting on brown wooden armchair in a coaching session with another woman sitting on a sofa"
       class: "home-panes--pane--img image-obj-cover"
       picCls: "link--internal__image"
     text: |
-      **Ethical salvia jianbing subway tile thundercats** franzen poutine listicle you probably haven't heard of them biodiesel squid waistcoat cornhole.  Tonx craft beer semiotics etsy same 3 wolf moon irony sriracha, air plant thundercats pickled polaroid bodega boys typewriter actually.
+      **Building on a career of supporting communication development, I have expanded my professional practice into coaching.**
       
-      Cardigan single-origin coffee kogi big mood banh mi prism mlkshk yr aesthetic distillery.  Pinterest portland glossier big mood 90's shoreditch cloud bread tumblr tumeric bodega boys.
+      I offer support in personal development more broadly, helping people build confidence, navigate challenges, and unlock their own capacity for change.
 
       [More about Coaching](/coaching/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
       - section-coloured-bg--quaternary
   -
-    path: /about/
-    title: "About Juliet"
+    path: /mentoring/
+    title: "Specialist Mentor"
     image:
-      path: content/public/images/originals/pexels-jessicairoh-14905028.jpg
-      alt: "Meditating"
+      path: content/public/images/originals/pexels-n-voitkevich-6532074.jpg
+      alt: "Woman sitting on a sofa teaching a young girl how to crochet"
       class: "home-panes--pane--img image-obj-cover"
       picCls: "link--internal__image"
     text: |
-      **Cold-pressed coloring book twee kitsch dreamcatcher.**  Celiac knausgaard you probably haven't heard of them chartreuse typewriter glossier.  Big mood church-key sus locavore fanny pack succulents.  Chillwave bodega boys bicycle rights slow-carb tote bag hella poke YOLO palo santo pop-up fam.
+      **I am experienced in mentoring others with the development of children and young people’s communication.**
       
-      Vegan echo park authentic tacos meditation gluten-free banjo +1 distillery direct trade.  Chicharrones taiyaki lo-fi, ascot vexillologist butcher four dollar toast edison bulb man braid live-edge tonx la croix.
+      We know that all children are different and need access to a variety of communication supports, from Early Years settings onwards.
+      
+      I am a specialist mentor for autistic undergraduates who require support at university.
 
-      [More about Juliet](/about/){.single-meta-item .single-meta-forward .bold}
+      [More about Specialist Mentoring](/mentoring/){.single-meta-item .single-meta-forward .bold}
     classes:
       - section-coloured-bg
       - section-coloured-bg--tertiary
