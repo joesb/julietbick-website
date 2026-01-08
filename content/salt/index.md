@@ -35,6 +35,17 @@ class:
     - page-title-white
 showMemberships: true
 group: salt
+showContactModal: true
+styles:
+  internal:
+    - modal.css
+  external:
+    - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+scripts:
+  internal:
+    - modal-contact.js
+  external:
+    - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"
 ---
 
 I have been practising as a Speech and Language Therapist since 1992, working with children and young people to develop their communication skills. I primarily work with autistic children and young people.{.bold .larger}
@@ -50,6 +61,9 @@ We will follow your child’s interests and join in with what they are doing.
 Communication comes from relationship and connection.
 
 We will have fun together!
+
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+{.center}
 
 {% ColourBG 'tertiary' %}
   {% Markdown %}
@@ -86,6 +100,9 @@ It does not relate only to a specific activity for a particular group. It is an 
 ## What to expect
 
 My aim will be to understand your child’s communication strengths and needs so that I can support you with your communication together.
+
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+{.center}
 
 ### Initial phone call (free of charge)
 

@@ -55,6 +55,9 @@ Building on a career of supporting communication development, I have expanded my
 
 In 2025 I completed my Postgraduate Certificate in Coaching at the University of Warwick, passing with distinction. I am currently an Associate member of the Association for Coaching, working towards full membership accreditation.
 
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+{.center}
+
 ## What is coaching?
 
 There is no universally agreed definition, but here are some perspectives:
@@ -88,6 +91,9 @@ Coaching offers the space and time to stop and think.
 At its heart coaching is a conversation between the coachee and the coach which leads to meaningful change.
 
 As we trust the coaching process together, we can create space to explore, discover and learn.
+
+[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+{.center}
 
 ## Trust
 
