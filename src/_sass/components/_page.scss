@@ -1,3 +1,5 @@
+@use "../tools/respond-to" as rt;
+
 .page {
   padding-block: var(--size-8);
 }
@@ -9,7 +11,7 @@
 /* Page with hero image */
 .page-with-hero-image {
   position: relative;
-  padding-block-start: 40vh;
+  padding-block-start: calc(20vh + 2rem);
 
   > * {
     position: relative;
@@ -18,7 +20,7 @@
 
   .page-title {
     position: absolute;
-    top: 20vh;
+    top: 8vh;
   }
 }
 
@@ -26,7 +28,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  block-size: 40vh;
+  block-size: 20vh;
   overflow: hidden;
   z-index: 0;
   display: block;
@@ -45,5 +47,19 @@
     z-index: 1;
     background: rgba(255, 255, 255, 0.75);
     padding: 0.25rem;
+  }
+}
+
+@include rt.respond-to('medium') {
+  .page-with-hero-image {
+    padding-block-start: calc(40vh + 2rem);
+
+    .page-title {
+      top: 25vh;
+    }
+  }
+
+  .page-hero-image {
+    block-size: 40vh;
   }
 }

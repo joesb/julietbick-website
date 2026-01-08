@@ -38,6 +38,17 @@ class:
       - margin-block-end-none
 showMemberships: true
 group: coaching
+showContactModal: true
+styles:
+  internal:
+    - modal.css
+  external:
+    - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+scripts:
+  internal:
+    - modal-contact.js
+  external:
+    - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"
 ---
 
 Building on a career of supporting communication development, I have expanded my professional practice into coaching. This step reflected my growing interest in supporting personal development more broadly, helping people build confidence, navigate challenges, and unlock their own capacity for change.
