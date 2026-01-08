@@ -61,7 +61,7 @@ scripts:
         </div>
 
         <div class="home-layout--panes--pane-inner home-layout--panes--pane-image">
-          {% image pane.image.path, pane.image.alt, pane.image.class, [300, 600], "(min-width: 30em) 50vw, 100vw", pane.image.picCls %}
+          {% image pane.image.path, pane.image.alt, pane.image.class, [300, 500, 800], "(min-width: 30em) 50vw, 100vw", pane.image.picCls %}
         </div>
         {% if pane.path %}
         <a href="{{ pane.path | url }}" class="faux-block-link"><span class="hide-text" aria-hidden="true">{{ pane.title }}</span></a>
