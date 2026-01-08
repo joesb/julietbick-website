@@ -1,5 +1,9 @@
 @use "./tools/respond-to" as rt;
 
+.blocker {
+  z-index: 450;
+}
+
 .contact-modal {
   display: none;
   position: absolute;
