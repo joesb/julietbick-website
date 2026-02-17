@@ -34,3 +34,7 @@ $base_url: "/public/images/memberships/";
 .membership-a4c {
   --membership-logo: url(#{$base_url + "a4c-logo-sq.webp"});
 }
+
+.membership-gce {
+  --membership-logo: url(#{$base_url + "gce-logo-sq.webp"});
+}
