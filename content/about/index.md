@@ -26,7 +26,7 @@ scripts:
 **I work with children and young people to develop their communication skills.**{.larger}
 {.content-canvas-item-main-start-main-right}
 
-{% ImgFigure "I'm Juliet", image.side_classes %}![Juliet Bick](/public/images/originals/pexels-cottonbro-4098150.jpg){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
+{% ImgFigure "I'm Juliet", image.side_classes %}![Juliet Bick](/public/images/juliet-bick--narrow.jpg){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
 
 I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.{.medium .content-canvas-item-main-start-main-right}
 

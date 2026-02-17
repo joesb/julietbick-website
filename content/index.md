@@ -13,7 +13,7 @@ eleventyComputed:
 eleventyNavigation:
   key: Home
 image:
-  path: content/public/images/originals/pexels-cottonbro-4098150.jpg
+  path: content/public/images/juliet-bick.jpg
   alt: "Juliet Bick"
   class:
     - image-rounded
