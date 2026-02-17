@@ -14,10 +14,18 @@ ol {
   &.inline-list {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--size-fluid-2);
+    gap: var(--size-fluid-4);
 
     &.inline-list--space-evenly {
       justify-content: space-evenly;
+    }
+
+    &.inline-list--space-around {
+      justify-content: space-around;
+    }
+
+    &.inline-list--center {
+      justify-content: center;
     }
 
     li {

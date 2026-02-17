@@ -1,5 +1,5 @@
 <section class="memberships">
-  <ul class="memberships--list bare-list inline-list inline-list--space-evenly">
+  <ul class="memberships--list bare-list inline-list inline-list--center">
     {% for item in metadata.memberships %}
     {% if group === undefined or (group and item.group and item.group.includes(group)) %}
     <li class="memberships--item membership-{{ item.machine_name }}">

@@ -86,4 +86,6 @@ This includes working with their families, carers and school staff to support th
 
 I believe in a strengths-based approach to our work together and focus on communication that stems from trust and connection.
 
+Thank you for visiting my website. I look forward to connecting with you.
+
 [Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}

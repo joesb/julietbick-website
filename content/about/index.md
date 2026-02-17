@@ -23,22 +23,14 @@ scripts:
     - "https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"
 ---
 
-**I work with children and young people to develop their communication skills.**{.larger}
-{.content-canvas-item-main-start-main-right}
+I have lived and worked in Birmingham for over 20 years. Communicating with others brings me joy, and I have been lucky to have had a career with communication at the centre.{.larger .bold .content-canvas-item-main-start-main-right}
 
 {% ImgFigure "I'm Juliet", image.side_classes %}![Juliet Bick](/public/images/juliet-bick--narrow.jpg){.image-rounded .image-border eleventy:widths="200,350,575"}{% endImgFigure %}
 
-I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.{.medium .content-canvas-item-main-start-main-right}
-
-I have lived and worked in Birmingham for over 20 years. Communicating with others brings me joy, and I have been lucky to have had a career with communication at the centre.{.content-canvas-item-main-start-main-right}
-
 Being myself with others, so that they can be who they are, is my passion.{.content-canvas-item-main-start-main-right}
 
-I have had a career employed by the NHS and then Education. I have been self-employed for over 10 years and work as a Speech and Language Therapist, Coach and Specialist Mentor.{.content-canvas-item-main-start-main-right}
+Initially, I was employed by the NHS and then the Local Education Authority. In the last 10 years of my career, I have developed my own business, and I am currently working as a Coach, Speech and Language Therapist and Specialist Mentor.{.content-canvas-item-main-start-main-right}
 
-This includes working with their families, carers and school staff to support their communication with the autistic child or young person.{.content-canvas-item-main-start-main-right}
-
-I believe in a strengths-based approach to our work together and focus on communication that stems from trust and connection.
 
 ## Where do I work?
 

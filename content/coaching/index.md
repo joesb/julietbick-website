@@ -88,9 +88,9 @@ There is no universally agreed definition, but here are some perspectives:
 
 Coaching offers the space and time to stop and think.
 
-At its heart coaching is a conversation between the coachee and the coach which leads to meaningful change.
+At its heart, coaching is a conversation between the coachee and the coach which leads to meaningful change.
 
-As we trust the coaching process together, we can create space to explore, discover and learn.
+As we trust in the coaching process together, we can create space to explore, discover and learn.
 
 [Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
 {.center}
@@ -110,16 +110,6 @@ Do you agree with Brene Brown’s 7 factors for cultivating trust?
 - **Generosity:** You assume the best of others’ intentions, words, actions
 
 Is there anything else you would add?
-
-## Braving
-
-Do you think it’s brave to trust someone? What helps you trust someone?
-
-Looking at the model below, as we build trust together within our coaching our topics in conversations may extend from our “Open/free” quadrant. We may discover new insights that will support your own personal growth -currently unknown to us both within the “unknown” area of this framework.
-
-{% ImgFigure 'Johari Window model.', image.classes_1 %}![Johari Window model](/public/images/johariwindowmodeldiagram.png){.image-rounded .image-border eleventy:widths="200,350,640"}{% endImgFigure %}
-
-[Global Code of Ethics for Coaches, Mentors, and Supervisors](https://www.globalcodeofethics.org/){rel="noopener" target="_blank"}
 
 ---
 

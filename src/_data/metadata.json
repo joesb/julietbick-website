@@ -48,6 +48,15 @@
       "group": [
         "coaching"
       ]
+    },
+    {
+      "name": "Global Code of Ethics for Coaches, Mentors, and Supervisors",
+      "short_name": "GCE",
+      "machine_name": "gce",
+      "url": "https://www.globalcodeofethics.org/",
+      "group": [
+        "coaching"
+      ]
     }
   ]
 }
