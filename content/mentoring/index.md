@@ -6,16 +6,15 @@ eleventyNavigation:
   key: Specialist Mentor
   order: 30
 image:
-  social: ./content/public/images/originals/pexels-n-voitkevich-6532074.jpg
-  path: /public/images/originals/pexels-n-voitkevich-6532074.jpg
-  alt: Woman sitting on a sofa teaching a young girl how to crochet
+  social: ./content/public/images/originals/transformative-power-of-mentoring.jpeg
+  path: /public/images/originals/transformative-power-of-mentoring.jpeg
+  alt: The Transformative Power of Mentoring – 4 Crucial Benefits
   widths:
     - 300
     - 500
     - 1000
     - 1980
-  caption: |
-    [Photo](https://www.pexels.com/photo/mother-teaching-her-daughter-how-to-crochet-6532074/){rel=noopener target=_blank} by [Nataliya Vaitkevich](https://www.pexels.com/@n-voitkevich/){rel=noopener target=_blank}
+  caption:
   classes:
     - page-hero-image--image
     - image-obj-cover

@@ -6,20 +6,20 @@ eleventyNavigation:
   key: Coaching
   order: 10
 image:
-  social: ./content/public/images/originals/pexels-shkrabaanthony-5217852.jpg
-  path: /public/images/originals/pexels-shkrabaanthony-5217852.jpg
-  alt: Woman in white long sleeve shirt sitting on brown wooden armchair in a coaching session with another woman sitting on a sofa
+  social: ./content/public/images/originals/pexels-artempodrez-6585012.jpg
+  path: /public/images/originals/pexels-artempodrez-6585012.jpg
+  alt: Man in Black Long Sleeve Shirt Sitting on a Chair
   widths:
     - 300
     - 500
     - 1000
     - 1980
   caption: |
-    [Photo](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-brown-wooden-armchair-5217852/){rel=noopener target=_blank} by [Antoni Shkraba Studio](https://www.pexels.com/@shkrabaanthony/){rel=noopener target=_blank}
+    [Photo](https://www.pexels.com/photo/man-in-black-long-sleeve-shirt-sitting-on-a-chair-6585012/){rel=noopener target=_blank} by [Artem Podrez](https://www.pexels.com/@artempodrez/){rel=noopener target=_blank}
   classes:
     - page-hero-image--image
     - image-obj-cover
-    - image-obj-pos-higher
+    - image-obj-pos-bottom
     - image-darken-33
   figClasses:
     - content-canvas-item-full
@@ -68,7 +68,7 @@ There is no universally agreed definition, but here are some perspectives:
 >
 > Coaching isn’t just about problem-solving — it’s about transformation. Clients often come to coaching seeking clarity, focus, and direction. As a coach, you become the guide who helps them navigate obstacles and unlock their full potential. Through powerful questioning, active listening, and supportive feedback, you empower clients to find solutions they may not have realized were within them.
 >
-> ([International Coaching Federation (ICF) website](https://coachingfederation.org/become-a-coach/why-become-a-coach/){target=_blank rel="noopener nofollow"}, October 2025){.smaller}
+> ([International Coaching Federation [ICF] website](https://coachingfederation.org/become-a-coach/why-become-a-coach/){target=_blank rel="noopener nofollow"}, October 2025){.smaller}
 {.padding-block-lg .content-canvas-item-wide-left-more}
   {% endMarkdown %}
 {% endColourBG %}
@@ -92,25 +92,6 @@ At its heart, coaching is a conversation between the coachee and the coach which
 
 As we trust in the coaching process together, we can create space to explore, discover and learn.
 
-[Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
-{.center}
-
-## Trust
-
-We will need to trust each other in our coaching
-
-Do you agree with Brene Brown’s 7 factors for cultivating trust?
-
-- **Boundaries:** You are willing to say no. You respect my boundaries.
-- **Reliability:** You do what you say you’ll do.
-- **Accountability:** You own your mistakes, apologise and make amends.
-- **Vault:** You don’t share what’s not yours to share. Confidentiality.
-- **Integrity:** You choose courage over comfort, what’s right over what’s easy.
-- **Non-judgment:** We can each ask for what we need.
-- **Generosity:** You assume the best of others’ intentions, words, actions
-
-Is there anything else you would add?
-
 ---
 
 ## What will happen when you contact me?
@@ -122,7 +103,7 @@ If you would like to work with me as your coach, here’s what to expect.
 
 ### Our initial conversation
 
-This is important to check we are a “good fit”.
+This is a coach–match conversation to check we are a “good fit”.
 
 I will share with you how I work and ask you about what has brought you to coaching.
 

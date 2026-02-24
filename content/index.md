@@ -2,7 +2,7 @@
 layout: home.njk
 title: Home
 primary: true
-date: 2025-10-14T15:12:12
+date: 2026-02-24T15:12:12
 sitemap:
   priority: 1
 hideTitleBar: true
@@ -25,7 +25,7 @@ panes:
     path: /slt/
     title: "Speech & Language Therapy"
     image:
-      path: content/public/images/originals/pexels-mikhail-nilov-6932014.jpg
+      path: content/public/images/originals/emotional-resonance-dir-floortime.jpg
       alt: "Woman in White Long Sleeve Shirt Holding Pink and White Floral Textile"
       class: "home-panes--pane--img image-obj-cover image-obj-pos-higher"
       picCls: "link--internal__image"
@@ -43,7 +43,7 @@ panes:
     path: /coaching/
     title: "Coaching"
     image:
-      path: content/public/images/originals/pexels-shkrabaanthony-5217852.jpg
+      path: content/public/images/originals/pexels-divinetechygirl-1181719.jpg
       alt: "Woman in white long sleeve shirt sitting on brown wooden armchair in a coaching session with another woman sitting on a sofa"
       class: "home-panes--pane--img image-obj-cover"
       picCls: "link--internal__image"
@@ -60,7 +60,7 @@ panes:
     path: /mentoring/
     title: "Specialist Mentor"
     image:
-      path: content/public/images/originals/pexels-n-voitkevich-6532074.jpg
+      path: content/public/images/originals/three-students-writing-assignment.jpg
       alt: "Woman sitting on a sofa teaching a young girl how to crochet"
       class: "home-panes--pane--img image-obj-cover"
       picCls: "link--internal__image"
@@ -78,11 +78,16 @@ panes:
 ---
 
 **I'm Juliet.**{.vlarge .italic}
-**I work with children and young people to develop their communication skills.**{.larger}
 
-I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people.{.medium}
+**I am a speech and language therapist, specialist mentor, and coach. We can work together.**{.larger}
 
-This includes working with their families, carers and school staff to support their communication with the autistic child or young person.
+**As a speech & language therapist**, I work with children and young people to develop their communication skills.
+
+I've been a practising Speech & Language Therapist since 1992. I work primarily with autistic children and young people. This includes working with families, carers and school staff to support their communication with the child or young person.
+
+**As a specialist mentor**, I can share my experience and knowledge with you as we learn together about developing communication skills.
+
+**As a coach**, we will work together to focus on your development.
 
 I believe in a strengths-based approach to our work together and focus on communication that stems from trust and connection.
 
