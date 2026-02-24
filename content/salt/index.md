@@ -6,20 +6,19 @@ eleventyNavigation:
   key: Speech & Language Therapy
   order: 20
 image:
-  social: ./content/public/images/originals/pexels-mikhail-nilov-6932014.jpg
-  path: /public/images/originals/pexels-mikhail-nilov-6932014.jpg
-  alt: Woman in White Long Sleeve Shirt Holding Pink and White Floral Textile
+  social: ./content/public/images/originals/pexels-ketut-subiyanto-4934778.jpg
+  path: /public/images/originals/pexels-ketut-subiyanto-4934778.jpg
+  alt: Man Playing with Toys with a Baby Boy on Carpet
   widths:
     - 300
     - 500
     - 1000
     - 1980
   caption: |
-    [Photo](https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-holding-pink-and-white-floral-textile-6932014/){rel=noopener target=_blank} by [Mikhail Nilov](https://www.pexels.com/@mikhail-nilov/){rel=noopener target=_blank}
+    [Photo](https://www.pexels.com/photo/low-angle-view-of-man-playing-with-toys-with-a-baby-boy-on-carpet-4934778/){rel=noopener target=_blank} by [Ketut Subiyanto](https://www.pexels.com/@ketut-subiyanto/){rel=noopener target=_blank}
   classes:
     - page-hero-image--image
     - image-obj-cover
-    - image-obj-pos-higher
     - image-darken-33
   figClasses:
     - content-canvas-item-full
