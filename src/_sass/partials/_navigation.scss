@@ -11,7 +11,7 @@
   left: 0;
   z-index: 2;
   padding: px-to-rem.px-to-rem(145px) px-to-rem.px-to-rem(25px) px-to-rem.px-to-rem(25px) px-to-rem.px-to-rem(25px);
-  background-color: var(--color-brand-secondary);
+  background-color: var(--color-brand-primary-dark);
 }
 
 .main-nav,
@@ -79,7 +79,7 @@
 
   .open-text {
     display: none;
-    color: var(--text-1);
+    color: var(--color-text-white);
   }
 
   .header-main__menu__burger {
@@ -94,7 +94,7 @@
       height: px-to-rem.px-to-rem(3px);
       transition: 0.3s ease-in-out;
       border-radius: px-to-rem.px-to-rem(2px);
-      background-color: var(--text-1);
+      background-color: var(--color-white);
       margin-bottom: px-to-rem.px-to-rem(4px);
     }
   }
@@ -115,7 +115,7 @@
       &.js-closed {
         .header-main__menu__burger {
           div {
-            background-color: var(--text-1);
+            background-color: var(--color-white);
           }
           div:nth-child(1) {
             transition: 0.3s ease-in-out;

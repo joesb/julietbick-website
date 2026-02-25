@@ -94,3 +94,6 @@ I believe in a strengths-based approach to our work together and focus on commun
 Thank you for visiting my website. I look forward to connecting with you.
 
 [Get in touch](#contact-modal){.open-modal .single-meta-button .margin-block-md rel="modal:open" data-modal}
+
+[!['Juliet Bick'](/public/images/juliet-bick.jpg){.image-rounded eleventy:widths="200,600"}](/about/)
+{.home-layout--photo}

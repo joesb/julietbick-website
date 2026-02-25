@@ -1,5 +1,9 @@
 $base_url: "/public/images/memberships/";
 
+.memberships--list {
+  margin-block: var(--size-fluid-5);
+}
+
 .memberships--item {
   --membership-logo: "";
 }
