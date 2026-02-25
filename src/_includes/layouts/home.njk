@@ -28,23 +28,8 @@ scripts:
       {% include "layouts/components/title-bar.njk" %}
       {% endif %}
 
-    <section class="home-layout content-canvas-item-full">
-
-      <div class="home-layout__item home-layout__item--left">
-        <div class="home-layout__item__inner">
-          <div class="home-layout__item__inner__content home-layout--panes--pane-text">
-            {{ content | safe  }}
-          </div>
-        </div>
-      </div>
-
-      <div class="home-layout__item home-layout__item--right">
-        <div class="home-layout__item__inner">
-          <a href="/about/">
-          {% image image.path, image.alt, image.class, [200, 400] %}
-          </a>
-        </div>
-      </div>
+    <section class="home-layout">
+      {{ content | safe  }}
     </section>
 
     <div class="content-canvas-item-wide">

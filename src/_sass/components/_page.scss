@@ -52,14 +52,14 @@
 
 @include rt.respond-to('medium') {
   .page-with-hero-image {
-    padding-block-start: calc(70vh + 2rem);
+    padding-block-start: clamp(15rem, 70vh, 37rem);
 
     .page-title {
-      top: 45vh;
+      top: clamp(12rem, 45vh, 23rem);
     }
   }
 
   .page-hero-image {
-    block-size: 70vh;
+    block-size: clamp(15rem, 70vh, 35rem);
   }
 }
