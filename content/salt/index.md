@@ -49,7 +49,7 @@ scripts:
 
 I have been practising as a Speech and Language Therapist since 1992, working with children and young people to develop their communication skills. I primarily work with autistic children and young people.{.bold .larger}
 
-This includes working with their families, carers and school staff to support their communication with the autistic child or young person.
+This includes working with their families, carers and school staff to support their communication with the child or young person.
 
 I believe in a strengths-based approach to our work together and will focus on communication that stems from trust and connection.
 
