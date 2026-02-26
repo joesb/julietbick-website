@@ -61,6 +61,8 @@ I work in person and online, which we can discuss when you contact me.
 > "After just a few sessions, Juliet recognised that a different approach would better support our son and introduced the Gestalt method. This child-led approach has suited him far more naturally. Juliet is incredibly thoughtful and attentive, carefully analysing each session and adjusting her strategies whenever needed to ensure he continues to progress.{.italic .large}
 >
 > "We’re so grateful for her insight, flexibility, and dedication."{.italic .large}
+>
+> Parent{.smaller}
 {.padding-block-lg .content-canvas-item-wide-right-more}  
   {% endMarkdown %}
 {% endColourBG %}
