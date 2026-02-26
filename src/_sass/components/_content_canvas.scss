@@ -237,7 +237,7 @@
 }
 
 .content-canvas-item-wide-right-more {
-  grid-column: main-left/wide-end;
+  grid-column: wide-start/wide-end;
 }
 
 .content-canvas-item-full {
@@ -293,6 +293,10 @@
   }
   .content-canvas-item-mid-wide-right {
     grid-column: main-mid/wide-end;
+  }
+
+  .content-canvas-item-wide-right-more {
+    grid-column: main-left/wide-end;
   }
 
   .content-canvas-item-right,
