@@ -1,4 +1,8 @@
   <head>
+  {% if env.isProd %}
+    <!-- Google Analytics  -->
+    {% include "layouts/components/ga-tag.njk" %}
+  {% endif %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% set siteName = [ metadata.org, metadata.title, metadata.subtitle] %}
