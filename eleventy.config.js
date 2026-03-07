@@ -378,8 +378,8 @@ export default async function(eleventyConfig) {
   // eleventyConfig.addPassthroughCopy({'src/_includes/assets/js/cookieconsent-config.js': '/assets/cookieconsent-config.js'});
   // IndexNow key
   eleventyConfig.addPassthroughCopy({ 'content/44ce983d229a4af5bc3794403478dc39.txt': '/44ce983d229a4af5bc3794403478dc39.txt' });
-
   if (process.env.ELEVENTY_ENV !== 'local') {
+    eleventyConfig.addPassthroughCopy({ 'content/BingSiteAuth.xml': '/BingSiteAuth.xml' });
     eleventyConfig.ignores.add('content/indexnow.njk');
   }
 }
