@@ -376,10 +376,11 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ 'content/favicon.ico': '/favicon.ico' });
   eleventyConfig.addPassthroughCopy({ 'content/site.webmanifest': '/site.webmanifest' });
   // eleventyConfig.addPassthroughCopy({'src/_includes/assets/js/cookieconsent-config.js': '/assets/cookieconsent-config.js'});
-  // IndexNow key
-  eleventyConfig.addPassthroughCopy({ 'content/44ce983d229a4af5bc3794403478dc39.txt': '/44ce983d229a4af5bc3794403478dc39.txt' });
   if (process.env.ELEVENTY_ENV !== 'local') {
+    // Bing site auth
     eleventyConfig.addPassthroughCopy({ 'content/BingSiteAuth.xml': '/BingSiteAuth.xml' });
+    // IndexNow key
+    eleventyConfig.addPassthroughCopy({ 'content/4776929de4144c0880dd9a0742c957f9.txt': '/4776929de4144c0880dd9a0742c957f9.txt' });
     eleventyConfig.ignores.add('content/indexnow.njk');
   }
 }
