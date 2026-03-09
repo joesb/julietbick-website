@@ -1,7 +1,8 @@
 ---
 title: "Coaching"
+description: "I am a qualified coach, supporting personal development, helping people build confidence, navigate challenges, and unlock their own capacity for change."
 layout: page.njk
-date: 2025-10-14T14:12:12
+date: 2026-03-09T14:12:12
 eleventyNavigation:
   key: Coaching
   order: 10

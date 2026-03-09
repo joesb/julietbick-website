@@ -1,8 +1,9 @@
 ---
 layout: home.njk
 title: Home
+description: "I'm Juliet. I am a speech and language therapist, specialist mentor, and coach. We can work together."
 primary: true
-date: 2026-02-24T15:12:12
+date: 2026-03-09T15:13:28
 sitemap:
   priority: 1
 hideTitleBar: true

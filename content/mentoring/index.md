@@ -1,7 +1,8 @@
 ---
 title: "Specialist Mentor"
+description: "I am experienced in mentoring others with the development of children and young people’s communication."
 layout: page.njk
-date: 2026-01-08T10:48:52
+date: 2026-02-08T10:48:52
 eleventyNavigation:
   key: Specialist Mentor
   order: 30

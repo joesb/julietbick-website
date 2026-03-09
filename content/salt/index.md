@@ -1,7 +1,8 @@
 ---
 title: "Speech & Language Therapy"
+description: "I have been practising as a Speech and Language Therapist since 1992, working with children and young people to develop their communication skills."
 layout: page.njk
-date: 2025-10-14T14:12:12
+date: 2026-03-09T10:12:12
 eleventyNavigation:
   key: Speech & Language Therapy
   order: 20

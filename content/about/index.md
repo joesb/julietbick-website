@@ -1,7 +1,8 @@
 ---
 title: "I'm Juliet"
+description: "I have worked in Birmingham for over 20 years as a Coach, a Speech and Language Therapist, and a Specialist Mentor"
 layout: page.njk
-date: 2025-10-14T14:12:12
+date: 2026-03-09T14:22:12
 eleventyNavigation:
   key: About me
   order: 100
