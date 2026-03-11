@@ -1167,12 +1167,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quasibit/eleventy-plugin-schema@npm:^1.12.0":
-  version: 1.12.0
-  resolution: "@quasibit/eleventy-plugin-schema@npm:1.12.0"
+"@quasibit/eleventy-plugin-schema@npm:^1.13.0":
+  version: 1.13.0
+  resolution: "@quasibit/eleventy-plugin-schema@npm:1.13.0"
   peerDependencies:
     "@11ty/eleventy": ">=0.11.0"
-  checksum: f8ef82572e22263cc513abdf1a729dc5d9389191ad9f7fa5bf4ed5854a6ac8742826480d5f9707bf248d55aca4d85ec8496005ae32162ccd45ad8d92905802e7
+  checksum: 69676d3e72aae2e5411d9bab6756597f11aea200d54304b17fa469fba6d5ef9c8688e0b32d0d16fe08bb9e84c123543273217cec467bd139650671024854d9ff
   languageName: node
   linkType: hard
 
@@ -2658,7 +2658,7 @@ __metadata:
     "@11ty/eleventy-img": ^6.0.4
     "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^2.0.4
-    "@quasibit/eleventy-plugin-schema": ^1.12.0
+    "@quasibit/eleventy-plugin-schema": ^1.13.0
     autoprefixer: ^10.4.24
     clean-css: ^5.3.3
     dotenv: ^17.3.1
