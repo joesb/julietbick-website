@@ -4,7 +4,7 @@
 import { Resend } from "resend";
 
 export default {
-  async fetch (request) {
+  async fetch (request, env, ctx) {
     try {
       let input = await request.formData();
       // Convert FormData to JSON
@@ -40,13 +40,13 @@ export default {
   ${output.message}`;
       // Using text instead of email so that I don't need to sanitize it
       const resend = new Resend(context.env.RESEND_API_KEY);
-      // const { data, error } = await resend.emails.send({
-      //   from: context.env.SENDER_EMAIL,
-      //   replyTo: output.email,
-      //   to: context.env.RECIPIENT_EMAIL,
-      //   subject: `[JulietBick.com] Contact from ${output.name}: ${output.subject}`,
-      //   text: messageContent,
-      // });
+      const { data, error } = await resend.emails.send({
+        from: context.env.SENDER_EMAIL,
+        replyTo: output.email,
+        to: context.env.RECIPIENT_EMAIL,
+        subject: `[JulietBick.com] Contact from ${output.name}: ${output.subject}`,
+        text: messageContent,
+      });
       console.log({data, error});
       if (error) {
         return Response.redirect("https://julietbick.com/404/", 303)
