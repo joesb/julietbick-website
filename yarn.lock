@@ -224,50 +224,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/unenv-preset@npm:2.16.0":
-  version: 2.16.0
-  resolution: "@cloudflare/unenv-preset@npm:2.16.0"
+"@cloudflare/unenv-preset@npm:2.16.1":
+  version: 2.16.1
+  resolution: "@cloudflare/unenv-preset@npm:2.16.1"
   peerDependencies:
     unenv: 2.0.0-rc.24
-    workerd: 1.20260301.1 || ~1.20260302.1 || ~1.20260303.1 || ~1.20260304.1 || >1.20260305.0 <2.0.0-0
+    workerd: ">1.20260305.0 <2.0.0-0"
   peerDependenciesMeta:
     workerd:
       optional: true
-  checksum: 68dff0f593384920557b705976ac2f648f1fc2b88219642116a154663899980f822074a9e50d84c6bcaed0cb138135b717531805b7c879483c6d0c9bf57ecdcd
+  checksum: b068c06814242950edc86e00fb3b0cd64b0d94d2f4da1d06f19a85faa5b11d697c68219a8f9ea0d75c2b90ea894ced626381aa7c3e61cde147312766fc81a6cc
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-darwin-64@npm:1.20260420.1":
-  version: 1.20260420.1
-  resolution: "@cloudflare/workerd-darwin-64@npm:1.20260420.1"
+"@cloudflare/workerd-darwin-64@npm:1.20260424.1":
+  version: 1.20260424.1
+  resolution: "@cloudflare/workerd-darwin-64@npm:1.20260424.1"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-darwin-arm64@npm:1.20260420.1":
-  version: 1.20260420.1
-  resolution: "@cloudflare/workerd-darwin-arm64@npm:1.20260420.1"
+"@cloudflare/workerd-darwin-arm64@npm:1.20260424.1":
+  version: 1.20260424.1
+  resolution: "@cloudflare/workerd-darwin-arm64@npm:1.20260424.1"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-linux-64@npm:1.20260420.1":
-  version: 1.20260420.1
-  resolution: "@cloudflare/workerd-linux-64@npm:1.20260420.1"
+"@cloudflare/workerd-linux-64@npm:1.20260424.1":
+  version: 1.20260424.1
+  resolution: "@cloudflare/workerd-linux-64@npm:1.20260424.1"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-linux-arm64@npm:1.20260420.1":
-  version: 1.20260420.1
-  resolution: "@cloudflare/workerd-linux-arm64@npm:1.20260420.1"
+"@cloudflare/workerd-linux-arm64@npm:1.20260424.1":
+  version: 1.20260424.1
+  resolution: "@cloudflare/workerd-linux-arm64@npm:1.20260424.1"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@cloudflare/workerd-windows-64@npm:1.20260420.1":
-  version: 1.20260420.1
-  resolution: "@cloudflare/workerd-windows-64@npm:1.20260420.1"
+"@cloudflare/workerd-windows-64@npm:1.20260424.1":
+  version: 1.20260424.1
+  resolution: "@cloudflare/workerd-windows-64@npm:1.20260424.1"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2478,7 +2478,7 @@ __metadata:
     sass: ^1.99.0
     sass-autoprefixer: ^1.0.1
     uglify-js: ^3.19.3
-    wrangler: ^4.84.0
+    wrangler: ^4.85.0
   languageName: unknown
   linkType: soft
 
@@ -2673,19 +2673,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:4.20260420.0":
-  version: 4.20260420.0
-  resolution: "miniflare@npm:4.20260420.0"
+"miniflare@npm:4.20260424.0":
+  version: 4.20260424.0
+  resolution: "miniflare@npm:4.20260424.0"
   dependencies:
     "@cspotcode/source-map-support": 0.8.1
     sharp: ^0.34.5
     undici: 7.24.8
-    workerd: 1.20260420.1
+    workerd: 1.20260424.1
     ws: 8.18.0
     youch: 4.1.0-beta.10
   bin:
     miniflare: bootstrap.js
-  checksum: 08bcbdb769e3d4e8b2c29cb8f10c5514796fee0db77937c92ad46f84342e3b7f6774e5ebdc17a0d5cffc26111de5dc03774a5324dac92f7679aaace19515c3b3
+  checksum: 35861adaeaa665e4b48ba9f8c2b2eb34c45088fc1f565d43fda276fc5d838825699c490840a21bc0bcac64c870928d3db348e3beb409ca40ebbd06c1dd59f0f2
   languageName: node
   linkType: hard
 
@@ -4053,15 +4053,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workerd@npm:1.20260420.1":
-  version: 1.20260420.1
-  resolution: "workerd@npm:1.20260420.1"
+"workerd@npm:1.20260424.1":
+  version: 1.20260424.1
+  resolution: "workerd@npm:1.20260424.1"
   dependencies:
-    "@cloudflare/workerd-darwin-64": 1.20260420.1
-    "@cloudflare/workerd-darwin-arm64": 1.20260420.1
-    "@cloudflare/workerd-linux-64": 1.20260420.1
-    "@cloudflare/workerd-linux-arm64": 1.20260420.1
-    "@cloudflare/workerd-windows-64": 1.20260420.1
+    "@cloudflare/workerd-darwin-64": 1.20260424.1
+    "@cloudflare/workerd-darwin-arm64": 1.20260424.1
+    "@cloudflare/workerd-linux-64": 1.20260424.1
+    "@cloudflare/workerd-linux-arm64": 1.20260424.1
+    "@cloudflare/workerd-windows-64": 1.20260424.1
   dependenciesMeta:
     "@cloudflare/workerd-darwin-64":
       optional: true
@@ -4075,25 +4075,25 @@ __metadata:
       optional: true
   bin:
     workerd: bin/workerd
-  checksum: 13d620fdfdb130ccc2572857664721f0d76744f9828fcec9e47392e7a431458b45868acfb87c0d209c9f8947c162170dd1363c535b61e452c4dc9f1335127fbd
+  checksum: 49b0129dbebf85ea0f8d0debe9cfa59b1b033f8eec2de3cf2c1e9da2a59be05cffd53f2ea567da995b0cf627f5e91573d509ce24ff39e02fecbf051da80672ea
   languageName: node
   linkType: hard
 
-"wrangler@npm:^4.84.0":
-  version: 4.84.0
-  resolution: "wrangler@npm:4.84.0"
+"wrangler@npm:^4.85.0":
+  version: 4.85.0
+  resolution: "wrangler@npm:4.85.0"
   dependencies:
     "@cloudflare/kv-asset-handler": 0.4.2
-    "@cloudflare/unenv-preset": 2.16.0
+    "@cloudflare/unenv-preset": 2.16.1
     blake3-wasm: 2.1.5
     esbuild: 0.27.3
     fsevents: ~2.3.2
-    miniflare: 4.20260420.0
+    miniflare: 4.20260424.0
     path-to-regexp: 6.3.0
     unenv: 2.0.0-rc.24
-    workerd: 1.20260420.1
+    workerd: 1.20260424.1
   peerDependencies:
-    "@cloudflare/workers-types": ^4.20260420.1
+    "@cloudflare/workers-types": ^4.20260424.1
   dependenciesMeta:
     fsevents:
       optional: true
@@ -4103,7 +4103,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 119e5dbc65df03fea778a01b76c84ae848c60594ffa39a161b0f72a1288b43ce9484b14ae314485c7aa17feab8f79cd163a80ea9f5407b5037a965db9c6ddd93
+  checksum: 1df3e34fd89856c56da1b9ffc58f071ead9669495c029c8b3f0910b848017c11426fd2a576c3d90cb2e14cfc6d251473685d4c54e7ed6d70c867443140dcc72b
   languageName: node
   linkType: hard
 
