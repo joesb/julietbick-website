@@ -2412,7 +2412,7 @@ __metadata:
     minify-xml: ^4.5.2
     postcss: ^8.5.31
     postcss-cli: ^12.0.0
-    resend: ^6.34.1
+    resend: ^6.36.0
     rimraf: ^6.1.3
     sass: ^1.106.1
     sass-autoprefixer: ^1.0.1
@@ -3362,9 +3362,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resend@npm:^6.34.1":
-  version: 6.34.1
-  resolution: "resend@npm:6.34.1"
+"resend@npm:^6.36.0":
+  version: 6.36.0
+  resolution: "resend@npm:6.36.0"
   dependencies:
     postal-mime: 2.7.6
     standardwebhooks: 1.1.1
@@ -3373,7 +3373,7 @@ __metadata:
   peerDependenciesMeta:
     "@react-email/render":
       optional: true
-  checksum: e6cf8d230615547f46dcb0bb5d977249a6e42f5b68d5dc797a88e0a2efe29a26d43f03c6c2a523a125e612a0f680493eb9d41a1322ac673deddcbac17f76f438
+  checksum: 0910c51bac69c612c24c42b5b64f16f82772ad823eb0c2f0c1f7728df3003a39c2b1a6abdf7fdeb520e03aaf4ccea3a90ec9b8c27706db21ceebb185ccc09d57
   languageName: node
   linkType: hard
 
