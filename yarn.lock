@@ -1690,12 +1690,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:^18.0.9":
-  version: 18.0.9
-  resolution: "dotenv@npm:18.0.9"
+"dotenv@npm:^18.0.10":
+  version: 18.0.10
+  resolution: "dotenv@npm:18.0.10"
   bin:
-    dotenv: dist/index.cjs
-  checksum: ae1e65d057f2dd322ff7ecd2349d45b064269fb327bcb0a8c227e5638c5b04ae999a8f4a3942cb4707eec394e9116d2de89649a9bd2d8178cd7fb6bcab47c7ae
+    dotenv: dist/cli.cjs
+  checksum: 24227eecb13e5109cf511ce7ca8aa523b1c9740cbad4de95c7d4a02bdd0840dfd9d0158e4cc8dc80e237718fa23163f536bfb542247f121dd5f7b3a88f09979b
   languageName: node
   linkType: hard
 
@@ -2401,7 +2401,7 @@ __metadata:
     "@quasibit/eleventy-plugin-schema": ^1.14.0
     autoprefixer: ^10.6.2
     clean-css: ^5.3.3
-    dotenv: ^18.0.9
+    dotenv: ^18.0.10
     eleventy-plugin-time-to-read: ^1.3.0
     html-minifier-terser: ^7.2.0
     luxon: ^3.7.2
