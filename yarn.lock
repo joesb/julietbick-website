@@ -159,9 +159,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/eleventy@npm:^3.1.7":
-  version: 3.1.7
-  resolution: "@11ty/eleventy@npm:3.1.7"
+"@11ty/eleventy@npm:^3.1.8":
+  version: 3.1.8
+  resolution: "@11ty/eleventy@npm:3.1.8"
   dependencies:
     "@11ty/chokidar-with-glob-support": ^1.1.0
     "@11ty/dependency-tree": ^4.0.2
@@ -171,7 +171,7 @@ __metadata:
     "@11ty/eleventy-utils": ^2.0.7
     "@11ty/lodash-custom": ^4.17.21
     "@11ty/posthtml-urls": ^1.0.3
-    "@11ty/recursive-copy": ^4.0.4
+    "@11ty/recursive-copy": ^4.0.6
     "@sindresorhus/slugify": ^2.2.1
     bcp-47-normalize: ^2.3.0
     debug: ^4.4.3
@@ -184,11 +184,11 @@ __metadata:
     kleur: ^4.1.5
     liquidjs: ^10.30.0
     luxon: ^3.7.2
-    markdown-it: ^14.2.0
+    markdown-it: ^14.3.3
     minimist: ^1.2.8
     moo: 0.5.2
     node-retrieve-globals: ^6.0.1
-    nunjucks: "npm:@11ty/nunjucks@^3.3.0"
+    nunjucks: ^3.2.4
     picomatch: ^4.0.7
     please-upgrade-node: ^3.2.0
     posthtml: ^0.16.7
@@ -198,7 +198,7 @@ __metadata:
     tinyglobby: ^0.2.16
   bin:
     eleventy: cmd.cjs
-  checksum: d6523241997c8340ec113213e8d8bb48b39b3c4f5c4bb4fb5beb4eefd7f7c82503bcab95860197c7979b2b17186adfe0dcec0e6f6e06444eae026e7c9ca369e5
+  checksum: 127807db5798c7fa5f2bf06947dc665205450f399f982088bdb20921589675eb0d0038af987fab4d4aa5b300ae9dd129cd0b053230e1edeef2071f699cce0923
   languageName: node
   linkType: hard
 
@@ -221,15 +221,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@11ty/recursive-copy@npm:^4.0.4":
-  version: 4.0.4
-  resolution: "@11ty/recursive-copy@npm:4.0.4"
+"@11ty/recursive-copy@npm:^4.0.6":
+  version: 4.0.6
+  resolution: "@11ty/recursive-copy@npm:4.0.6"
   dependencies:
+    brace-expansion: ^1.1.21
     errno: ^1.0.0
     junk: ^3.1.0
-    minimatch: ^3.1.5
     slash: ^3.0.0
-  checksum: 1a4628e20555b317c2cc5d494a55131a9e88f0e9e9d19fe8ff017f537e30102a58311c392db21759132680f1c4c4eb5d89f28caece05502670b578804612266a
+  checksum: 27b67f8941e1f7317f4a4e37ac88dae824e07aebb8abe074fa3d629995f402a0fc81b4b497c69b85d6ffbde35aa6a82c205eff1a5f7d24a65ab392bf2519c9f0
   languageName: node
   linkType: hard
 
@@ -1392,6 +1392,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"brace-expansion@npm:^1.1.21":
+  version: 1.1.22
+  resolution: "brace-expansion@npm:1.1.22"
+  dependencies:
+    balanced-match: ^1.0.0
+    concat-map: 0.0.1
+  checksum: 0874d31cf0ba49217a32528e5ef5310e11d02a240897151d2f111a3d68e1c85add6badddb421df99d8337c20b4dd79771cf37880a6987fcb743c6d486d963464
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.21
   resolution: "brace-expansion@npm:1.1.21"
@@ -2394,7 +2404,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "julietbick-website@workspace:."
   dependencies:
-    "@11ty/eleventy": ^3.1.7
+    "@11ty/eleventy": ^3.1.8
     "@11ty/eleventy-img": ^7.1.1
     "@11ty/eleventy-navigation": ^1.0.5
     "@11ty/eleventy-plugin-rss": ^3.1.0
@@ -2566,7 +2576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:^14.2.0":
+"markdown-it@npm:^14.3.3":
   version: 14.3.3
   resolution: "markdown-it@npm:14.3.3"
   dependencies:
@@ -2680,7 +2690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^3.1.1, minimatch@npm:^3.1.5":
+"minimatch@npm:^3.1.1":
   version: 3.1.5
   resolution: "minimatch@npm:3.1.5"
   dependencies:
@@ -2905,21 +2915,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nunjucks@npm:@11ty/nunjucks@^3.3.0":
-  version: 3.3.0
-  resolution: "@11ty/nunjucks@npm:3.3.0"
+"nunjucks@npm:^3.2.4":
+  version: 3.2.4
+  resolution: "nunjucks@npm:3.2.4"
   dependencies:
     a-sync-waterfall: ^1.0.0
     asap: ^2.0.3
     commander: ^5.1.0
   peerDependencies:
-    "@11ty/chokidar-with-glob-support": ^1.1.0
+    chokidar: ^3.3.0
   peerDependenciesMeta:
-    "@11ty/chokidar-with-glob-support":
+    chokidar:
       optional: true
   bin:
     nunjucks-precompile: bin/precompile
-  checksum: 4191ab1400410f15259c87b541c19e2f301ad9d2764e160ca01726d221595f77cc855b64fe29464d7d71ebc3a48018d2ee36866e8dd7d0cd5c45902d1597b467
+  checksum: 8b902a9deb9ff0f5c9ebbd2c7f96dfe5800bf42bdfc91d8f829fc0440ec1f87901593e20479f5ba1bddcc9f2472b16a5e932be5863dcdec0899a27c01a03df32
   languageName: node
   linkType: hard
 
